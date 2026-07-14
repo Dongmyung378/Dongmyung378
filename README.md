@@ -1,8 +1,11 @@
-# Hey 👋, I'm Park Dongmyung!
+# Hello 👋, I'm Park Dongmyung!
 
 <p align="left">
-  <a href="mailto:dongmyungpark378@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/dongmyung378"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/dongmyung-park-192b99412/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/Dongmyung378" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" /></a>
+  <a href="https://www.kaggle.com/dongmyungpark" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" /></a>
+  <a href="https://huggingface.co/dongmyung378" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /></a>
 </p>
 
 I am an AI & Robotics Engineer focused on algorithm optimization and intelligent core systems. I graduated from the University of Manchester with a BSc in Computer Science, specializing in Artificial Intelligence. I enjoy solving complex competitive programming challenges and building robust robotic ecosystems.
