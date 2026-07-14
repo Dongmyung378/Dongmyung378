@@ -1,54 +1,49 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00122c,100:002147&height=200&section=header&text=Park%20Dongmyung&fontSize=65&fontColor=ffd700&animation=fadeIn" />
+# Hey 👋, I'm Park Dongmyung!
+
+<p align="left">
+  <a href="mailto:dongmyungpark378@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/dongmyung378"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
-<div align="center">
-  <h3>🎓 BSc University of Manchester Computer Science (Artificial Intelligence)</h3>
-  <p>데이터와 논리를 바탕으로 문제를 해결하는 AI & 로보틱스 엔지니어 박동명입니다.</p>
-</div>
+I am an AI & Robotics Engineer focused on algorithm optimization and intelligent core systems. I graduated from the University of Manchester with a BSc in Computer Science, specializing in Artificial Intelligence. I enjoy solving complex competitive programming challenges and building robust robotic ecosystems.
 
 ---
 
-### 🛠 Tech Stack & Ecosystem
-
-#### 💻 Languages
-<p align="left">
-  <a href="#tech"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
-</p>
-
-#### 🤖 AI & Robotics Ecosystem
-<p align="left">
-  <a href="#tech"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
-</p>
-
-#### ⚙️ Engineering & Core Systems
-<p align="left">
-  <a href="#tech"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Algorithms-4B0082?style=for-the-badge" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Data_Structures-008080?style=for-the-badge" /></a>
-  <a href="#tech"><img src="https://img.shields.io/badge/Operating_Systems-4682B4?style=for-the-badge" /></a>
-</p>
+<!-- 2단 레이아웃 분할 구조 (HTML 테이블 사용) -->
+<table>
+  <tr>
+    <!-- 왼쪽 칸: 나에 대한 설명 (55% 너비 차지) -->
+    <td width="55%" valign="top">
+      <h3>🧐 More About Me:</h3>
+      <ul>
+        <li>🎓 BSc University of Manchester <strong>Computer Science (AI)</strong></li>
+        <li>🌱 Currently focused on <strong>AI Algorithm Optimization & Robotics (ROS)</strong></li>
+        <li>💻 Passionate about <strong>Algorithms & Data Structures</strong></li>
+        <li>💬 Ask me about <strong>Computer Science, Deep Learning, and OS</strong></li>
+        <li>📫 Feel free to contact me at <strong>dongmyungpark378@gmail.com</strong></li>
+      </ul>
+    </td>
+    <!-- 오른쪽 칸: 개발 일러스트 (45% 너비 차지) -->
+    <td width="45%" valign="top" align="center">
+      <img src="https://user-images.githubusercontent.com/30533519/127184206-8968037a-fbc8-43d9-93e1-cf284bf418a0.png" width="350px" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🚀 About Me
-- 🎓 **Education:** BSc University of Manchester Computer Science (Artificial Intelligence)
-- 🌱 **Focused on:** AI Algorithm Optimization & Robotics Systems
-- 💬 **Ask me about:** Computer Science / Deep Learning / Robot Operating System (ROS)
+### 🔨 Languages and Tools
 
-### 📫 Contact & Socials
-- 📧 **Email:** dongmyungpark378@gmail.com
-- 🔗 **GitHub:** [github.com/dongmyung378](https://github.com/dongmyung378)
+<!-- 이미지 클릭 시 사이트 이동을 막는 #tech 안전장치를 적용한 플랫 아이콘들 -->
+<p align="left">
+  <a href="#tech"><img src="https://skillicons.dev/icons?i=cpp,py,pytorch,ros,git,linux" /></a>
+</p>
 
 ---
 
 ### 📊 GitHub Stats & Productivity
 
+<!-- 우회 서버를 활용해 에러를 방지한 깃허브 분석 카드 -->
 <p align="left">
   <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
   &nbsp;&nbsp;
@@ -59,6 +54,7 @@
 
 ### 🏆 Competitive Programming Stats
 
+<!-- 코드포스 & 리트코드(Dongmyung) 정상 수치 연동 카드 -->
 <p align="left">
   <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dongmyung378" alt="Codeforces Stats" height="150" />
   &nbsp;&nbsp;
