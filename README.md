@@ -39,18 +39,23 @@ I am an AI & Robotics Engineer focused on algorithm optimization and intelligent
 
 <!-- 이미지 클릭 시 사이트 이동을 막는 #tech 안전장치를 적용한 플랫 아이콘들 -->
 <p align="left">
-  <a href="#tech"><img src="https://skillicons.dev/icons?i=cpp,py,pytorch,ros,git,linux" /></a>
+  <a href="https://pytorch.org/" target="_blank"><img src="https://skillicons.dev/icons?i=pytorch" /></a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=py" /></a>
+  <a href="https://isocpp.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" /></a>
+  <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><img src="https://skillicons.dev/icons?i=sql" /></a>
+  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://skillicons.dev/icons?i=pandas" /></a>
+  <a href="https://numpy.org/" target="_blank"><img src="https://skillicons.dev/icons?i=numpy" /></a>
+  <a href="https://scikit-learn.org/" target="_blank"><img src="https://skillicons.dev/icons?i=sklearn" /></a>
 </p>
-
 ---
 
 ### 📊 GitHub Stats & Productivity
 
 <!-- 우회 서버를 활용해 에러를 방지한 깃허브 분석 카드 -->
 <p align="left">
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=dongmyung378&layout=compact&theme=dark" alt="Dongmyung's Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dongmyung378&layout=compact&theme=dark" alt="Dongmyung's Top Languages" height="150" />
 </p>
 
 ---
