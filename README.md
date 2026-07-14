@@ -42,7 +42,7 @@ I am an AI & Robotics Engineer focused on algorithm optimization and intelligent
   <a href="https://pytorch.org/" target="_blank"><img src="https://skillicons.dev/icons?i=pytorch" /></a>
   <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=py" /></a>
   <a href="https://isocpp.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" /></a>
-  <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><img src="https://skillicons.dev/icons?i=sql" /></a>
+  <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" /></a>
   <a href="https://pandas.pydata.org/" target="_blank"><img src="https://skillicons.dev/icons?i=pandas" /></a>
   <a href="https://numpy.org/" target="_blank"><img src="https://skillicons.dev/icons?i=numpy" /></a>
   <a href="https://scikit-learn.org/" target="_blank"><img src="https://skillicons.dev/icons?i=sklearn" /></a>
