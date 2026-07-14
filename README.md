@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Park%20Dongmyung&fontSize=65&fontColor=f1f5f9&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00122c,100:002147&height=200&section=header&text=Park%20Dongmyung&fontSize=65&fontColor=ffd700&animation=fadeIn" />
 </p>
 
 <div align="center">
@@ -50,9 +50,9 @@
 ### 📊 GitHub Stats & Productivity
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongmyung378&layout=compact&theme=dark" alt="Dongmyung's Top Languages" height="150" />
+  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=dongmyung378&layout=compact&theme=dark" alt="Dongmyung's Top Languages" height="150" />
 </p>
 
 ---
