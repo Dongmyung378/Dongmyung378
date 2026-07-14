@@ -1,6 +1,5 @@
-<!-- 1. 맨 위 비주얼 배너 -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Park%20Dongmyung&fontSize=70&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Park%20Dongmyung&fontSize=65&fontColor=f1f5f9&animation=fadeIn" />
 </p>
 
 <div align="center">
@@ -14,25 +13,25 @@
 
 #### 💻 Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <a href="#tech"><img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
 </p>
 
 #### 🤖 AI & Robotics Ecosystem
 <p align="left">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <a href="#tech"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
 </p>
 
 #### ⚙️ Engineering & Core Systems
 <p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Algorithms-4B0082?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Data_Structures-008080?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Operating_Systems-4682B4?style=for-the-badge" />
+  <a href="#tech"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Algorithms-4B0082?style=for-the-badge" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Data_Structures-008080?style=for-the-badge" /></a>
+  <a href="#tech"><img src="https://img.shields.io/badge/Operating_Systems-4682B4?style=for-the-badge" /></a>
 </p>
 
 ---
@@ -50,20 +49,18 @@
 
 ### 📊 GitHub Stats & Productivity
 
-<!-- 깃허브 전체 스탯 & 언어 사용 카드 (가로 배치) -->
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=dongmyung378&show_icons=true&theme=radial" alt="Dongmyung's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dongmyung378&show_icons=true&theme=dark" alt="Dongmyung's GitHub Stats" height="150" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongmyung378&layout=compact&theme=radial" alt="Dongmyung's Top Languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongmyung378&layout=compact&theme=dark" alt="Dongmyung's Top Languages" height="150" />
 </p>
 
 ---
 
 ### 🏆 Competitive Programming Stats
 
-<!-- 코드포스 & 리트코드 카드 (가로 배치) -->
 <p align="left">
   <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dongmyung378" alt="Codeforces Stats" height="150" />
   &nbsp;&nbsp;
-  <img src="https://leetcard.jacoblin.cool/Dongmyung378?theme=dark&font=Istok%20Web&ext=contest" alt="LeetCode Card" height="150" />
+  <img src="https://leetcard.jacoblin.cool/Dongmyung?theme=dark&font=Istok%20Web&ext=contest" alt="LeetCode Card" height="150" />
 </p>
