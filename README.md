@@ -32,14 +32,3 @@ I am an AI & Robotics Engineer focused on algorithm optimization and intelligent
   <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=py" /></a>
   <a href="https://isocpp.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" /></a>
 </p>
-
----
-
-### 🏆 Competitive Programming Stats
-
-<!-- 코드포스 & 리트코드(Dongmyung) 정상 수치 연동 카드 -->
-<p align="left">
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dongmyung378" alt="Codeforces Stats" height="150" />
-  &nbsp;&nbsp;
-  <img src="https://leetcard.jacoblin.cool/Dongmyung?theme=dark&font=Istok%20Web&ext=contest" alt="LeetCode Card" height="150" />
-</p>
