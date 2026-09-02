@@ -17,6 +17,10 @@ Artificial Intelligence Specialization
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
+<a href="https://x.com/Dongmyung378">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+</a>
+&nbsp;
 <a href="https://www.kaggle.com/dongmyungpark">
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
 </a>
