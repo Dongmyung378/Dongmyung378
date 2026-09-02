@@ -61,6 +61,7 @@ Artificial Intelligence Specialization
 
 <h3>AI · Machine Learning · Algorithms · Robotics · Systems</h3>
 
+<strong>Contact: </strong>
 <a href="mailto:dongmyungpark378@gmail.com">
   <strong>dongmyungpark378@gmail.com</strong>
 </a>
