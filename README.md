@@ -22,7 +22,6 @@ My interests are in **machine learning, algorithms, and robotics**, with a parti
 ---
 
 ## About
-
 * **Education:** BSc Computer Science (Artificial Intelligence), University of Manchester
 * **Interests:** Artificial Intelligence, Algorithms, Robotics, Systems
 * **Currently studying:** ROS, C++, Operating Systems, and AI model optimization
@@ -32,7 +31,6 @@ My interests are in **machine learning, algorithms, and robotics**, with a parti
 ---
 
 ## Technologies
-
 <p align="left">
   <a href="https://www.python.org/">
     <img src="https://skillicons.dev/icons?i=py" height="42" />
@@ -49,16 +47,13 @@ My interests are in **machine learning, algorithms, and robotics**, with a parti
 </p>
 
 ### Areas of Focus
-
 **AI / Machine Learning**
-
 * Deep Learning
 * Model Training and Evaluation
 * NLP
 * Model Optimization
 
 **Algorithms & Computer Science**
-
 * Data Structures and Algorithms
 * Graph Algorithms
 * Dynamic Programming
