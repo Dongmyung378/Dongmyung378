@@ -37,6 +37,10 @@ Artificial Intelligence Specialization
   <img src="https://skillicons.dev/icons?i=cpp" width="60" />
 </a>
 &nbsp;&nbsp;
+<a href="https://www.mysql.com/">
+  <img src="https://skillicons.dev/icons?i=mysql" width="60" />
+</a>
+&nbsp;&nbsp;
 <a href="https://pytorch.org/">
   <img src="https://skillicons.dev/icons?i=pytorch" width="60" />
 </a>
