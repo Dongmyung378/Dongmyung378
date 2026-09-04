@@ -4,7 +4,7 @@
 
 <h3>Computer Science · Artificial Intelligence · Robotics</h3>
 
-<strong>BSc Computer Science — University of Manchester</strong><br>
+<strong>BSc Computer Science - University of Manchester</strong><br>
 Artificial Intelligence Specialization
 
 <br>
