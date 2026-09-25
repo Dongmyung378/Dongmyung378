@@ -17,17 +17,6 @@ Artificial Intelligence Specialization
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;
-<a href="https://x.com/Dongmyung378">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://www.kaggle.com/dongmyungpark">
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://huggingface.co/dongmyung378">
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-</a>
 
 <br>
 
@@ -67,12 +56,6 @@ Artificial Intelligence Specialization
 
 <br>
 
-<h3>AI · Machine Learning · Algorithms · Robotics · Systems</h3>
-
-<strong>Contact: </strong>
-<a href="mailto:dongmyungpark378@gmail.com">
-  <strong>dongmyungpark378@gmail.com</strong>
-</a>
-
+<h3>AI · Algorithms · Robotics · Systems</h3>
 </div>
 
