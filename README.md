@@ -1,61 +1,45 @@
-<div align="center">
+# Park Dongmyung
 
-<h1>Park Dongmyung</h1>
+[English](README.md) | [한국어](README.ko.md)
 
-<h3>Computer Science · Artificial Intelligence · Robotics</h3>
+**Building AI systems through experimentation.**
 
-<strong>BSc Computer Science - University of Manchester</strong><br>
-Artificial Intelligence Specialization
+## [Portfolio website: park-dongmyung.com](https://park-dongmyung.com/)
 
-<br>
+Explore my [project case studies](https://park-dongmyung.com/projects/), [background and interests](https://park-dongmyung.com/profile/), and the experiments behind the code.
 
-<a href="https://github.com/dongmyung378">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/dongmyung-park-192b99412/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;
+## About me
 
-<br>
+Seeing scientists change the world through new discoveries made me want to contribute to that kind of progress. I began studying AI and keep learning by turning ideas into code, running experiments, and investigating unexpected results. I want the future I imagine to become something more people can experience in everyday life.
 
-<h2>Tech Stack</h2>
+I studied Artificial Intelligence at the University of Manchester. My projects connect language models, information retrieval, efficient learning, search algorithms, backend systems, and physical simulation.
 
-<a href="https://www.python.org/">
-  <img src="https://skillicons.dev/icons?i=python" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://isocpp.org/">
-  <img src="https://skillicons.dev/icons?i=cpp" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.mysql.com/">
-  <img src="https://skillicons.dev/icons?i=mysql" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://pytorch.org/">
-  <img src="https://skillicons.dev/icons?i=pytorch" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://scikit-learn.org/">
-  <img src="https://skillicons.dev/icons?i=sklearn" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linux.org/">
-  <img src="https://skillicons.dev/icons?i=linux" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://git-scm.com/">
-  <img src="https://skillicons.dev/icons?i=git" width="60" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.docker.com/">
-  <img src="https://skillicons.dev/icons?i=docker" width="60" />
-</a>
+## Interests
 
-<br>
+- **Embodied AI and robotics:** exploring how perception, learning, and control can connect intelligence to action.
+- **Autonomous driving:** understanding how systems perceive their surroundings, make decisions, and move safely.
+- **Rocket engineering:** studying the physics, guidance, and control behind launch and recovery.
+- **AI systems:** building useful applications and checking their behavior through experiments.
 
-<h3>AI · Algorithms · Robotics · Systems</h3>
-</div>
+## Projects
+
+The repositories below document how I turn ideas into working systems, test them, and interpret the results.
+
+- **[Portfolio website](https://park-dongmyung.com/)** — Project writeups, experiment results, source links, and reproduction guides.
+- **[Authorship verification](https://github.com/Dongmyung378/NLU-Authorship-Verification)** — A joint NLP project comparing transformer and stylometric models for English text pairs.
+- **[Korean retrieval and question answering](https://github.com/Dongmyung378/Korean-NLP-RAG)** — Evidence retrieval, extractive answers, and controlled comparisons of retrieval and reader configurations.
+- **[Knowledge distillation](https://github.com/Dongmyung378/Knowledge-Distillation)** — Compact traffic-sign classifiers, repeated experiments, error analysis, and CPU inference costs.
+- **[Hex search agent](https://github.com/Dongmyung378/AI-and-Games)** — Monte Carlo tree search, RAVE-TS, tactical rules, and CPU-budget comparisons.
+- **[DM100 rocket simulation](https://github.com/Dongmyung378/DM100-2D-Rocket-Recovery)** — A planar launch and recovery simulator connecting physical models, guidance, and state estimation.
+- **[Symbolic machine learning](https://github.com/Dongmyung378/Knowledge-Based-AI)** — Decision trees and FOIL for readable classification rules and recursive relations.
+- **[Evidence-grounded paper Q&A](https://github.com/Dongmyung378/Evidence-Grounded-Paper-QnA)** — Korean and English questions over English papers, with sentence-level citation tracing.
+- **[Chat and reservation systems](https://github.com/Dongmyung378/Distributed-System)** — Independent TCP chat and HTTP reservation applications with slow-peer isolation and recovery.
+- **[EventLite](https://github.com/Dongmyung378/Event-Website)** — A team event-management app; my work includes tests, security, and core management features.
+- **[Context-aware NPCs](https://github.com/Dongmyung378/Context-Aware-Npc-System)** — Unreal Engine schedules, rule-based dialogue, quests, trading, trust, and companion behavior.
+
+## Tools I use
+
+Python, C++, Java, and SQL; PyTorch and TensorFlow/Keras; FastAPI and Spring Boot; Git and Docker.
+
+For implementation details and measured results, start with the [portfolio](https://park-dongmyung.com/). You can also find me on [LinkedIn](https://www.linkedin.com/in/dongmyung-park-192b99412/).
 
