@@ -7,17 +7,17 @@ Learning and building toward the future I imagine.</p>
 
 <p>
 <a href="https://park-dongmyung.com/">
-  <img src="assets/links/portfolio.svg" width="124" height="48" alt="Portfolio" />
+  <img src="assets/links/portfolio.svg" width="114" height="46" alt="Portfolio" />
 </a>
 <a href="https://github.com/Dongmyung378">
-  <img src="assets/links/github.svg" width="124" height="48" alt="GitHub" />
+  <img src="assets/links/github.svg" width="114" height="46" alt="GitHub" />
 </a>
 <br>
 <a href="https://www.linkedin.com/in/dongmyung-park-192b99412/">
-  <img src="assets/links/linkedin.svg" width="124" height="48" alt="LinkedIn" />
+  <img src="assets/links/linkedin.svg" width="114" height="46" alt="LinkedIn" />
 </a>
 <a href="mailto:dongmyungpark378@gmail.com">
-  <img src="assets/links/email.svg" width="124" height="48" alt="Email" />
+  <img src="assets/links/email.svg" width="114" height="46" alt="Email" />
 </a>
 </p>
 
