@@ -33,11 +33,11 @@ Learning and building toward the future I imagine.</p>
 <h3>Interests</h3>
 
 <p>
-  <img src="https://img.shields.io/badge/Artificial_Intelligence-355C91?style=flat-square" alt="Artificial Intelligence" />
-  <img src="https://img.shields.io/badge/Robotics-875279?style=flat-square" alt="Robotics" />
+  <img src="assets/interests/ai.svg" width="114" height="26" alt="Artificial Intelligence" />
+  <img src="assets/interests/robotics.svg" width="114" height="26" alt="Robotics" />
   <br>
-  <img src="https://img.shields.io/badge/Autonomous_Driving-8A6526?style=flat-square" alt="Autonomous Driving" />
-  <img src="https://img.shields.io/badge/Rocket_Engineering-28746C?style=flat-square" alt="Rocket Engineering" />
+  <img src="assets/interests/autonomous-driving.svg" width="114" height="26" alt="Autonomous Driving" />
+  <img src="assets/interests/rocket-engineering.svg" width="114" height="26" alt="Rocket Engineering" />
 </p>
 
 <h3>Tech Stack</h3>
