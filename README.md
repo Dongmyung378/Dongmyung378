@@ -1,45 +1,58 @@
-# Park Dongmyung
+<div align="center">
 
-[English](README.md) | [한국어](README.ko.md)
+<a href="README.md">English</a> | <a href="README.ko.md">한국어</a>
 
-**Building AI systems through experimentation.**
+<h1>Park Dongmyung</h1>
+<h3>AI Engineer</h3>
 
-## [Portfolio website: park-dongmyung.com](https://park-dongmyung.com/)
+<p>Learning and building toward the future I imagine.</p>
 
-Explore my [project case studies](https://park-dongmyung.com/projects/), [background and interests](https://park-dongmyung.com/profile/), and the experiments behind the code.
+<a href="https://park-dongmyung.com/">
+  <img src="https://img.shields.io/badge/Portfolio-park--dongmyung.com-2563EB?style=for-the-badge" alt="Portfolio: park-dongmyung.com" />
+</a>
+<br>
+<a href="https://github.com/Dongmyung378">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
+</a>
+<a href="https://www.linkedin.com/in/dongmyung-park-192b99412/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" />
+</a>
 
-## About me
+<h2>Education</h2>
 
-Seeing scientists change the world through new discoveries made me want to contribute to that kind of progress. I began studying AI and keep learning by turning ideas into code, running experiments, and investigating unexpected results. I want the future I imagine to become something more people can experience in everyday life.
+<p>
+  <strong>University of Manchester</strong><br>
+  BSc Artificial Intelligence<br>
+  First Class Honours<br>
+  <sub>September 2021 – July 2026</sub>
+</p>
 
-I studied Artificial Intelligence at the University of Manchester. My projects connect language models, information retrieval, efficient learning, search algorithms, backend systems, and physical simulation.
+<h2>Interests</h2>
 
-## Interests
+<p>
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-355C91?style=flat-square" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Robotics-875279?style=flat-square" alt="Robotics" />
+  <br>
+  <img src="https://img.shields.io/badge/Autonomous_Driving-8A6526?style=flat-square" alt="Autonomous Driving" />
+  <img src="https://img.shields.io/badge/Rocket_Engineering-28746C?style=flat-square" alt="Rocket Engineering" />
+</p>
 
-- **Embodied AI and robotics:** exploring how perception, learning, and control can connect intelligence to action.
-- **Autonomous driving:** understanding how systems perceive their surroundings, make decisions, and move safely.
-- **Rocket engineering:** studying the physics, guidance, and control behind launch and recovery.
-- **AI systems:** building useful applications and checking their behavior through experiments.
+<h2>Tech Stack</h2>
 
-## Projects
+<p>
+  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="42" height="42" alt="Python" title="Python" /></a>
+  <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="42" height="42" alt="C++" title="C++" /></a>
+  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="42" height="42" alt="Java" title="Java" /></a>
+  <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="42" height="42" alt="PyTorch" title="PyTorch" /></a>
+  <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="42" height="42" alt="TensorFlow" title="TensorFlow" /></a>
+</p>
 
-The repositories below document how I turn ideas into working systems, test them, and interpret the results.
+<p>
+  <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="42" height="42" alt="scikit-learn" title="scikit-learn" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="42" height="42" alt="FastAPI" title="FastAPI" /></a>
+  <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" width="42" height="42" alt="Spring" title="Spring" /></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="42" height="42" alt="Git" title="Git" /></a>
+  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="42" height="42" alt="Docker" title="Docker" /></a>
+</p>
 
-- **[Portfolio website](https://park-dongmyung.com/)** — Project writeups, experiment results, source links, and reproduction guides.
-- **[Authorship verification](https://github.com/Dongmyung378/NLU-Authorship-Verification)** — A joint NLP project comparing transformer and stylometric models for English text pairs.
-- **[Korean retrieval and question answering](https://github.com/Dongmyung378/Korean-NLP-RAG)** — Evidence retrieval, extractive answers, and controlled comparisons of retrieval and reader configurations.
-- **[Knowledge distillation](https://github.com/Dongmyung378/Knowledge-Distillation)** — Compact traffic-sign classifiers, repeated experiments, error analysis, and CPU inference costs.
-- **[Hex search agent](https://github.com/Dongmyung378/AI-and-Games)** — Monte Carlo tree search, RAVE-TS, tactical rules, and CPU-budget comparisons.
-- **[DM100 rocket simulation](https://github.com/Dongmyung378/DM100-2D-Rocket-Recovery)** — A planar launch and recovery simulator connecting physical models, guidance, and state estimation.
-- **[Symbolic machine learning](https://github.com/Dongmyung378/Knowledge-Based-AI)** — Decision trees and FOIL for readable classification rules and recursive relations.
-- **[Evidence-grounded paper Q&A](https://github.com/Dongmyung378/Evidence-Grounded-Paper-QnA)** — Korean and English questions over English papers, with sentence-level citation tracing.
-- **[Chat and reservation systems](https://github.com/Dongmyung378/Distributed-System)** — Independent TCP chat and HTTP reservation applications with slow-peer isolation and recovery.
-- **[EventLite](https://github.com/Dongmyung378/Event-Website)** — A team event-management app; my work includes tests, security, and core management features.
-- **[Context-aware NPCs](https://github.com/Dongmyung378/Context-Aware-Npc-System)** — Unreal Engine schedules, rule-based dialogue, quests, trading, trust, and companion behavior.
-
-## Tools I use
-
-Python, C++, Java, and SQL; PyTorch and TensorFlow/Keras; FastAPI and Spring Boot; Git and Docker.
-
-For implementation details and measured results, start with the [portfolio](https://park-dongmyung.com/). You can also find me on [LinkedIn](https://www.linkedin.com/in/dongmyung-park-192b99412/).
-
+</div>
