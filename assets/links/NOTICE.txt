@@ -1,5 +1,6 @@
-GitHub mark: Simple Icons, CC0 1.0 Universal.
+GitHub and LeetCode marks: Simple Icons, CC0 1.0 Universal.
 https://github.com/simple-icons/simple-icons
 https://creativecommons.org/publicdomain/zero/1.0/
 
+The AtCoder button uses a generic code pictogram.
 Brand marks identify their respective services.
