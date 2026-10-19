@@ -1,0 +1,46 @@
+name: Refresh coding statistics
+
+on:
+  schedule:
+    - cron: "17 21 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/coding-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coding-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Check parsers and fallback behavior
+        run: python -m unittest discover -s tests -v
+      - name: Fetch official public statistics and render cards
+        run: python scripts/update_coding_stats.py
+      - name: Publish refreshed cards
+        shell: bash
+        run: |
+          git add -- README.md data/coding-stats.json assets/stats/
+          if git diff --cached --quiet; then
+            echo "The public snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh public coding statistics"
+          git push origin HEAD:main
