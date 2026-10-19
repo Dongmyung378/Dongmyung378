@@ -1,24 +1,27 @@
 <div align="center">
 
-<a href="README.md">English</a> | <a href="README.ko.md">한국어</a>
-
 <h1>Park Dongmyung</h1>
-<h3>AI Engineer</h3>
 
-<p>Learning and building toward the future I imagine.</p>
+<p><strong>AI Engineer</strong><br>
+Learning and building toward the future I imagine.</p>
 
+<p>
 <a href="https://park-dongmyung.com/">
-  <img src="https://img.shields.io/badge/Portfolio-park--dongmyung.com-2563EB?style=for-the-badge" alt="Portfolio: park-dongmyung.com" />
+  <img src="assets/links/portfolio.svg" width="124" height="48" alt="Portfolio" />
+</a>
+<a href="https://github.com/Dongmyung378">
+  <img src="assets/links/github.svg" width="124" height="48" alt="GitHub" />
 </a>
 <br>
-<a href="https://github.com/Dongmyung378">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" />
-</a>
 <a href="https://www.linkedin.com/in/dongmyung-park-192b99412/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn" />
+  <img src="assets/links/linkedin.svg" width="124" height="48" alt="LinkedIn" />
 </a>
+<a href="mailto:dongmyungpark378@gmail.com">
+  <img src="assets/links/email.svg" width="124" height="48" alt="Email" />
+</a>
+</p>
 
-<h2>Education</h2>
+<h3>Education</h3>
 
 <p>
   <strong>University of Manchester</strong><br>
@@ -27,7 +30,7 @@
   <sub>September 2021 – July 2026</sub>
 </p>
 
-<h2>Interests</h2>
+<h3>Interests</h3>
 
 <p>
   <img src="https://img.shields.io/badge/Artificial_Intelligence-355C91?style=flat-square" alt="Artificial Intelligence" />
@@ -37,7 +40,7 @@
   <img src="https://img.shields.io/badge/Rocket_Engineering-28746C?style=flat-square" alt="Rocket Engineering" />
 </p>
 
-<h2>Tech Stack</h2>
+<h3>Tech Stack</h3>
 
 <p>
   <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="42" height="42" alt="Python" title="Python" /></a>
