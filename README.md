@@ -41,8 +41,8 @@
 <h3>Coding Practice</h3>
 
 <p>
-<a href="https://atcoder.jp/users/ParkDM"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T005033Z" width="370" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC." /></a>
-<a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v=20261020T005033Z" width="370" alt="LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." /></a>
+<a href="https://atcoder.jp/users/ParkDM"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T005224Z" width="370" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC." /></a>
+<a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v=20261020T005224Z" width="370" alt="LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." /></a>
 </p>
 
 <p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:00 UTC. Cards show the last successful refresh (UTC).</sub></p>
