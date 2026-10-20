@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="368" viewBox="0 -6 354 368" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
-<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 311 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 327 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-20T12:28:14Z UTC.</desc>
+<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 322 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 338 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-20T12:40:14Z UTC.</desc>
 <rect x=".5" y=".5" width="353" height="355" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="22" y="35" fill="#E5C67B" font-size="23" font-weight="600" text-anchor="start">Most used languages</text>
 <text x="22" y="65" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Public, non-fork repositories</text>
 <defs><clipPath id="bar"><rect x="22" y="83" width="310" height="12" rx="6"/></clipPath></defs>
-<rect x="22.000" y="83" width="255.261" height="12" fill="#3572A5" clip-path="url(#bar)"/>
-<rect x="277.261" y="83" width="20.422" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
-<rect x="297.683" y="83" width="19.153" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
-<rect x="316.836" y="83" width="7.017" height="12" fill="#b07219" clip-path="url(#bar)"/>
-<rect x="323.853" y="83" width="2.770" height="12" fill="#e34c26" clip-path="url(#bar)"/>
+<rect x="22.000" y="83" width="255.265" height="12" fill="#3572A5" clip-path="url(#bar)"/>
+<rect x="277.265" y="83" width="20.420" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
+<rect x="297.686" y="83" width="19.152" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
+<rect x="316.837" y="83" width="7.016" height="12" fill="#b07219" clip-path="url(#bar)"/>
+<rect x="323.854" y="83" width="2.770" height="12" fill="#e34c26" clip-path="url(#bar)"/>
 <rect x="326.623" y="83" width="2.339" height="12" fill="#4F5D95" clip-path="url(#bar)"/>
-<rect x="328.962" y="83" width="1.101" height="12" fill="#f1e05a" clip-path="url(#bar)"/>
+<rect x="328.963" y="83" width="1.101" height="12" fill="#f1e05a" clip-path="url(#bar)"/>
 <rect x="330.064" y="83" width="0.764" height="12" fill="#012456" clip-path="url(#bar)"/>
 <rect x="330.828" y="83" width="1.172" height="12" fill="#8DA2B8" clip-path="url(#bar)"/>
 <circle cx="28" cy="119" r="5" fill="#3572A5"/>
