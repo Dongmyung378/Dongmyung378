@@ -88,18 +88,26 @@ def render_cards(records):
         output[f"coding-{name}.svg"] = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
             '<title id="title">Coding practice</title>\n'
             f'<desc id="desc">{escape(description)}</desc>\n'+"\n".join(content)+'\n</svg>\n')
+    for key, label in (("atcoder", "AtCoder"), ("leetcode", "LeetCode")):
+        content = panel(8, 0, 354, records[key], label, mobile=True)
+        output[f"{key}.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="370" height="328" viewBox="0 0 370 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+            f'<title id="title">{label} coding practice</title>\n'
+            f'<desc id="desc">{escape(alt_text(records, key))}</desc>\n'+"\n".join(content)+'\n</svg>\n')
     return output
 
 
-def alt_text(records):
+def alt_text(records, platform=None):
     a, leet = records["atcoder"], records["leetcode"]
     rating = "unrated" if a["rating"] is None else str(a["rating"])
     status = " provisional" if a["provisional"] else ""
     rank = "unranked" if a["rank"] is None else f'#{a["rank"]:,}'
     contest = "unrated" if leet["contest"]["rating"] is None else f'{leet["contest"]["rating"]:.0f}'
-    return (f'AtCoder {a["username"]}: algorithm rating {rating}{status}, algorithm rank {rank}, {a["rated_contests"]} rated contests; updated {a["updated_at"][:10]} UTC. '
-        f'LeetCode {leet["username"]}: {leet["solved"]} problems solved, '+', '.join(f'{k} {v}' for k,v in leet["difficulty"].items())+
-        f', contest rating {contest}, {leet["active_days"]} active days in {leet["activity_year"]}, profile rank {profile_rank(leet["profile_rank"])}; updated {leet["updated_at"][:10]} UTC.')
+    descriptions = {
+        "atcoder": f'AtCoder {a["username"]}: algorithm rating {rating}{status}, algorithm rank {rank}, {a["rated_contests"]} rated contests; updated {a["updated_at"][:10]} UTC.',
+        "leetcode": (f'LeetCode {leet["username"]}: {leet["solved"]} problems solved, '+', '.join(f'{k} {v}' for k,v in leet["difficulty"].items())+
+            f', contest rating {contest}, {leet["active_days"]} active days in {leet["activity_year"]}, profile rank {profile_rank(leet["profile_rank"])}; updated {leet["updated_at"][:10]} UTC.')
+    }
+    return descriptions[platform] if platform else " ".join(descriptions.values())
 
 
 def readme_block(records):
@@ -107,11 +115,10 @@ def readme_block(records):
     return '''<!-- coding-stats:start -->
 <h3>Coding Practice</h3>
 
-<picture>
-  <source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-mobile.svg?v='''+version+'''" />
-  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-tablet.svg?v='''+version+'''" />
-  <img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-wide.svg?v='''+version+'''" width="100%" alt="'''+escape(alt_text(records), quote=True)+'''" />
-</picture>
+<p>
+<a href="https://atcoder.jp/users/ParkDM"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="370" alt="'''+escape(alt_text(records, "atcoder"), quote=True)+'''" /></a>
+<a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="370" alt="'''+escape(alt_text(records, "leetcode"), quote=True)+'''" /></a>
+</p>
 
-<p><sub>Scheduled hourly. Cards show the last successful refresh (UTC).</sub></p>
+<p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:17 UTC. Cards show the last successful refresh (UTC).</sub></p>
 <!-- coding-stats:end -->'''
