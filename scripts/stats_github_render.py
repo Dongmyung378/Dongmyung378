@@ -5,25 +5,11 @@ from stats_render import text
 BG = "#101B2B"
 LINE = "#34465E"
 MUTED = "#B6C5D6"
-ACTIVITY = "#8DD7F7"
-ACTIVE_DAYS = "#A7DBA2"
-STREAK = "#F5AD83"
-LANGUAGES = "#E5C67B"
-
-
-def language_text_color(color):
-    """Keep each GitHub language hue while making its text readable on navy."""
-    rgb = [int(color[i:i+2], 16) / 255 for i in (1, 3, 5)]
-    def luminance(channels):
-        linear = [c / 12.92 if c <= .04045 else ((c + .055) / 1.055) ** 2.4 for c in channels]
-        return sum(c * weight for c, weight in zip(linear, (.2126, .7152, .0722)))
-    background = luminance([int(BG[i:i+2], 16) / 255 for i in (1, 3, 5)])
-    for step in range(21):
-        amount = step / 20
-        readable = [c + (1-c)*amount for c in rgb]
-        if (luminance(readable)+.05)/(background+.05) >= 7:
-            return "#" + "".join(f"{round(c*255):02X}" for c in readable)
-    return "#FFFFFF"
+PRIMARY = "#E6EEF8"
+ACTIVITY = "#9AC5EA"
+ACTIVE_DAYS = "#91CBB9"
+STREAK = "#91CBB9"
+LANGUAGES = "#DCC596"
 
 
 def svg(width, height, title, description, content, vertical_gap=0):
@@ -47,22 +33,22 @@ def overview(record, mobile=False):
         f'<circle cx="{center_x}" cy="{center_y}" r="{radius}" fill="none" stroke="{ACTIVE_DAYS}" stroke-width="8" '
         f'stroke-dasharray="{circumference*fraction:.2f} {circumference:.2f}" stroke-linecap="round" transform="rotate(-90 {center_x} {center_y})"/>',
         text(center_x, center_y+8, f'{record["active_days"]:,}', 43, ACTIVE_DAYS, weight=600, anchor="middle"),
-        text(center_x, center_y+32, "active days", 14, "#C2D9B9", anchor="middle"),
+        text(center_x, center_y+32, "active days", 14, MUTED, anchor="middle"),
         text(center_x, center_y+radius+26, "Last 365 days", 14, MUTED, anchor="middle"),
     ]
     entries = [
-        ("Stars earned", record["stars"], "#E8CD78", "#FFDE8A"),
-        ("Commits / last 365 days", record["commits"], "#A0C6EF", "#90C9FF"),
-        ("Pull requests", record["pull_requests"], "#D6B1E6", "#DCACF7"),
-        ("Issues opened", record["issues"], "#EDAEB0", "#F4A4AC"),
-        ("Repos committed to / 365d", record["repositories_committed_to"], "#A1D9CA", "#85DEBD"),
+        ("Stars earned", record["stars"]),
+        ("Commits / last 365 days", record["commits"]),
+        ("Pull requests", record["pull_requests"]),
+        ("Issues opened", record["issues"]),
+        ("Repos committed to / 365d", record["repositories_committed_to"]),
     ]
     top = 250 if mobile else 86
     right = 329 if mobile else 413
-    for i, (label, value, label_color, value_color) in enumerate(entries):
+    for i, (label, value) in enumerate(entries):
         y = top+i*36
-        lines += [text(22, y, label, 17 if mobile else 18, label_color),
-                  text(right, y, f"{value:,}", 22, value_color, 600, "end")]
+        lines += [text(22, y, label, 17 if mobile else 18, MUTED),
+                  text(right, y, f"{value:,}", 22, PRIMARY, 600, "end")]
     lines.append(text(22, height-18, f'Public activity / {record["updated_at"][:16].replace("T"," ")} UTC', 12, MUTED))
     return svg(width, height, "GitHub activity", description(record), lines)
 
@@ -73,14 +59,14 @@ def streak_card(record, width=354):
     center=width/2
     lines=[text(22,35,"Contribution streak",23,STREAK,600),
            text(22,67,"Public GitHub calendar / UTC",14,MUTED)]
-    for x, value, label, value_color, label_color in [
-        (width*.27,s["current"],"Current streak","#F3B390","#D9B397"),
-        (width*.75,s["longest"],"Longest streak","#EEB8DB","#DDB2D3"),
+    for x, value, label, value_color in [
+        (width*.27,s["current"],"Current streak",STREAK),
+        (width*.75,s["longest"],"Longest streak",PRIMARY),
     ]:
-        lines += [text(x,137,value,48,value_color,weight=600,anchor="middle"),text(x,166,label,16,label_color,anchor="middle")]
+        lines += [text(x,137,value,48,value_color,weight=600,anchor="middle"),text(x,166,label,16,MUTED,anchor="middle")]
     lines.append(f'<path d="M {center} 95 V 177" stroke="{LINE}"/>')
-    lines += [text(22,218,"Total contributions",16,"#C4D8AA"),
-              text(width-22,218,f'{record["total_contributions"]:,}',24,"#B4D792",600,"end")]
+    lines += [text(22,218,"Total contributions",16,MUTED),
+              text(width-22,218,f'{record["total_contributions"]:,}',24,PRIMARY,600,"end")]
     lines += [text(22,252,"Since "+record["created_at"],14,MUTED)]
     longest = f'{s["longest_start"]} to {s["longest_end"]}' if s["longest"] else "No contribution streak yet"
     lines += [text(22,283,"Longest: "+longest,12,MUTED)]
@@ -105,10 +91,9 @@ def language_card(record, width=354):
         x+=segment
     for i,item in enumerate(shown):
         y=124+i*22
-        color=language_text_color(item["color"])
         lines += [f'<circle cx="28" cy="{y-5}" r="5" fill="{escape(item["color"])}"/>',
-                  text(42,y,item["name"],15,color),
-                  text(width-22,y,f'{item["percent"]:.2f}%',15,color,anchor="end")]
+                  text(42,y,item["name"],15,PRIMARY),
+                  text(width-22,y,f'{item["percent"]:.2f}%',15,MUTED,anchor="end")]
     if not shown:
         lines.append(text(22,138,"No language data available",16,MUTED))
     lines += [text(22,326,f'{record["public_repositories"]} repositories / GitHub language bytes',12,MUTED),
@@ -135,7 +120,7 @@ def render_cards(record):
 
 
 def readme_block(record):
-    version=record["updated_at"].replace("-","").replace(":","")+"-colors2"
+    version=record["updated_at"].replace("-","").replace(":","")+"-calm3"
     base=f'https://raw.githubusercontent.com/{record["username"]}/{record["username"]}/main/assets/stats/'
     alt=escape(description(record),quote=True)
     profile=f'https://github.com/{record["username"]}'

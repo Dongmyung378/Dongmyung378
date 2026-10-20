@@ -2,5 +2,5 @@
   <title id="title">AtCoder</title>
   <rect x="1" y="3" width="108" height="38" rx="10" fill="#111C2E" stroke="#34465E"/>
   <g transform="translate(17 13) scale(.75)" color="#C5B8F0"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 5-6 7 6 7M16 5l6 7-6 7M14 3l-4 18"/></g></g>
-  <text x="43" y="27" fill="#D0BCF4" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">AtCoder</text>
+  <text x="43" y="27" fill="#E6EEF8" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">AtCoder</text>
 </svg>

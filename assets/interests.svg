@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="230" viewBox="8 0 354 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering</title>
 <rect x="8.5" y="0.5" width="353" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="28" y="34" font-size="14" fill="#E3B4EF" font-weight="600">INTERESTS</text>
-<rect x="28" y="63" width="150" height="48" rx="9" fill="#22334A"/>
-<text x="103" y="92" font-size="13" fill="#9ADFEA" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
-<rect x="192" y="63" width="150" height="48" rx="9" fill="#382B3C"/>
-<text x="267" y="92" font-size="13" fill="#F4B5CE" font-weight="600" text-anchor="middle">Robotics</text>
-<rect x="28" y="131" width="150" height="48" rx="9" fill="#3A3223"/>
-<text x="103" y="160" font-size="13" fill="#EAD698" font-weight="600" text-anchor="middle">Autonomous Driving</text>
-<rect x="192" y="131" width="150" height="48" rx="9" fill="#203A38"/>
-<text x="267" y="160" font-size="13" fill="#AEDB9A" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+<text x="28" y="34" font-size="14" fill="#91CBB9" font-weight="600">INTERESTS</text>
+<rect x="28" y="63" width="150" height="48" rx="9" fill="#223247"/>
+<text x="103" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
+<rect x="192" y="63" width="150" height="48" rx="9" fill="#223247"/>
+<text x="267" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
+<rect x="28" y="131" width="150" height="48" rx="9" fill="#223247"/>
+<text x="103" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Autonomous Driving</text>
+<rect x="192" y="131" width="150" height="48" rx="9" fill="#223247"/>
+<text x="267" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
 </svg>
