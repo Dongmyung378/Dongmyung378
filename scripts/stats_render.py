@@ -90,7 +90,11 @@ def render_cards(records):
             f'<desc id="desc">{escape(description)}</desc>\n'+"\n".join(content)+'\n</svg>\n')
     for key, label in (("atcoder", "AtCoder"), ("leetcode", "LeetCode")):
         content = panel(8, 0, 354, records[key], label, mobile=True)
-        output[f"{key}.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="370" height="328" viewBox="0 0 370 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+        output[f"{key}.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="354" height="328" viewBox="8 0 354 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+            f'<title id="title">{label} coding practice</title>\n'
+            f'<desc id="desc">{escape(alt_text(records, key))}</desc>\n'+"\n".join(content)+'\n</svg>\n')
+        content = panel(0, 0, 600, records[key], label, mobile=True)
+        output[f"{key}-tablet.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="328" viewBox="0 0 600 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
             f'<title id="title">{label} coding practice</title>\n'
             f'<desc id="desc">{escape(alt_text(records, key))}</desc>\n'+"\n".join(content)+'\n</svg>\n')
     return output
@@ -116,8 +120,8 @@ def readme_block(records):
 <h3>Coding Practice</h3>
 
 <p>
-<a href="https://atcoder.jp/users/ParkDM"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="370" alt="'''+escape(alt_text(records, "atcoder"), quote=True)+'''" /></a>
-<a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="370" alt="'''+escape(alt_text(records, "leetcode"), quote=True)+'''" /></a>
+<a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder-tablet.svg?v='''+version+'''" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="49%" alt="'''+escape(alt_text(records, "atcoder"), quote=True)+'''" /></picture></a>
+<a href="https://leetcode.com/u/Dongmyung/"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode-tablet.svg?v='''+version+'''" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="49%" alt="'''+escape(alt_text(records, "leetcode"), quote=True)+'''" /></picture></a>
 </p>
 
 <p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:00 UTC. Cards show the last successful refresh (UTC).</sub></p>

@@ -7,17 +7,17 @@
 <p>Learning and building toward the future I imagine.</p>
 
 <p>
-<a href="https://park-dongmyung.com/"><img src="assets/links/portfolio.svg" width="110" height="44" alt="Portfolio" /></a>
-<a href="https://github.com/Dongmyung378"><img src="assets/links/github.svg" width="110" height="44" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/dongmyung-park-192b99412/"><img src="assets/links/linkedin.svg" width="110" height="44" alt="LinkedIn" /></a>
-<a href="mailto:dongmyungpark378@gmail.com"><img src="assets/links/email.svg" width="110" height="44" alt="Email" /></a>
-<a href="https://atcoder.jp/users/ParkDM"><img src="assets/links/atcoder.svg" width="110" height="44" alt="AtCoder" /></a>
-<a href="https://leetcode.com/u/Dongmyung/"><img src="assets/links/leetcode.svg" width="110" height="44" alt="LeetCode" /></a>
+<a href="https://park-dongmyung.com/"><picture><source media="(max-width: 1000px)" srcset="assets/links/portfolio.svg" width="110" height="44" /><img src="assets/links/portfolio.svg" width="15.8%" alt="Portfolio" /></picture></a>
+<a href="https://github.com/Dongmyung378"><picture><source media="(max-width: 1000px)" srcset="assets/links/github.svg" width="110" height="44" /><img src="assets/links/github.svg" width="15.8%" alt="GitHub" /></picture></a>
+<a href="https://www.linkedin.com/in/dongmyung-park-192b99412/"><picture><source media="(max-width: 1000px)" srcset="assets/links/linkedin.svg" width="110" height="44" /><img src="assets/links/linkedin.svg" width="15.8%" alt="LinkedIn" /></picture></a>
+<a href="mailto:dongmyungpark378@gmail.com"><picture><source media="(max-width: 1000px)" srcset="assets/links/email.svg" width="110" height="44" /><img src="assets/links/email.svg" width="15.8%" alt="Email" /></picture></a>
+<a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 1000px)" srcset="assets/links/atcoder.svg" width="110" height="44" /><img src="assets/links/atcoder.svg" width="15.8%" alt="AtCoder" /></picture></a>
+<a href="https://leetcode.com/u/Dongmyung/"><picture><source media="(max-width: 1000px)" srcset="assets/links/leetcode.svg" width="110" height="44" /><img src="assets/links/leetcode.svg" width="15.8%" alt="LeetCode" /></picture></a>
 </p>
 
 <p>
-<img src="assets/education.svg" width="370" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026." />
-<picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg" /><img src="assets/interests.svg" width="370" alt="Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." /></picture>
+<picture><source media="(max-width: 480px)" srcset="assets/education.svg" width="100%" /><source media="(max-width: 1000px)" srcset="assets/education-tablet.svg" width="100%" /><img src="assets/education.svg" width="49%" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026." /></picture>
+<picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg" width="100%" /><source media="(max-width: 1000px)" srcset="assets/interests-tablet.svg" width="100%" /><img src="assets/interests.svg" width="49%" alt="Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." /></picture>
 </p>
 
 <h3>Tech Stack</h3>
@@ -40,8 +40,8 @@
 <h3>Coding Practice</h3>
 
 <p>
-<a href="https://atcoder.jp/users/ParkDM"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T005224Z" width="370" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC." /></a>
-<a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v=20261020T005224Z" width="370" alt="LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." /></a>
+<a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T005224Z" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder-tablet.svg?v=20261020T005224Z" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T005224Z" width="49%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC." /></picture></a>
+<a href="https://leetcode.com/u/Dongmyung/"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v=20261020T005224Z" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode-tablet.svg?v=20261020T005224Z" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v=20261020T005224Z" width="49%" alt="LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." /></picture></a>
 </p>
 
 <p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:00 UTC. Cards show the last successful refresh (UTC).</sub></p>

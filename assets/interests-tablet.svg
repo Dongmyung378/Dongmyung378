@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
+<title id="title">Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering</title>
+<rect x="0.5" y="0.5" width="599" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
+<text x="24" y="34" font-size="18" fill="#A6B9D0" font-weight="600">INTERESTS</text>
+<rect x="24" y="62" width="266" height="48" rx="9" fill="#22334A"/>
+<text x="157" y="93" font-size="21" fill="#C3DAF7" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
+<rect x="310" y="62" width="266" height="48" rx="9" fill="#382B3C"/>
+<text x="443" y="93" font-size="21" fill="#E8CBE1" font-weight="600" text-anchor="middle">Robotics</text>
+<rect x="24" y="132" width="266" height="48" rx="9" fill="#3A3223"/>
+<text x="157" y="163" font-size="21" fill="#ECDDAD" font-weight="600" text-anchor="middle">Autonomous Driving</text>
+<rect x="310" y="132" width="266" height="48" rx="9" fill="#203A38"/>
+<text x="443" y="163" font-size="21" fill="#B9E5DC" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+</svg>
