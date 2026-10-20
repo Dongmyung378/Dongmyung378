@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="368" viewBox="0 -6 354 368" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+<title id="title">GitHub contribution streak</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 310 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 326 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-20T12:20:32Z UTC.</desc>
+<rect x=".5" y=".5" width="353" height="355" rx="14" fill="#101B2B" stroke="#34465E"/>
+<text x="22" y="35" fill="#C6B3FF" font-size="23" font-weight="600" text-anchor="start">Contribution streak</text>
+<text x="22" y="67" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Public GitHub calendar / UTC</text>
+<text x="95.58000000000001" y="137" fill="#E6EEF8" font-size="48" font-weight="600" text-anchor="middle">3</text>
+<text x="95.58000000000001" y="166" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="middle">Current streak</text>
+<text x="265.5" y="137" fill="#E6EEF8" font-size="48" font-weight="600" text-anchor="middle">27</text>
+<text x="265.5" y="166" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="middle">Longest streak</text>
+<path d="M 177.0 95 V 177" stroke="#34465E"/>
+<text x="22" y="218" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Total contributions</text>
+<text x="332" y="218" fill="#79D4B3" font-size="24" font-weight="600" text-anchor="end">326</text>
+<text x="22" y="252" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Since 2025-11-19</text>
+<text x="22" y="283" fill="#B6C5D6" font-size="12" font-weight="400" text-anchor="start">Longest: 2026-09-01 to 2026-09-27</text>
+<text x="22" y="321" fill="#B6C5D6" font-size="13" font-weight="400" text-anchor="start">Streak lengths are measured in days.</text>
+<text x="22" y="340" fill="#B6C5D6" font-size="12" font-weight="400" text-anchor="start">An unfinished UTC day does not break a streak.</text>
+</svg>

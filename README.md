@@ -36,6 +36,21 @@
 <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="60" height="60" alt="Docker" title="Docker" /></a>
 </p>
 
+<!-- github-stats:start -->
+<h1>GitHub Stats</h1>
+
+<p>
+<a href="https://github.com/Dongmyung378?tab=overview"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-overview-mobile.svg?v=20261020T122032Z" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-overview.svg?v=20261020T122032Z" width="100%" alt="GitHub Dongmyung378: 2 stars earned, 310 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 326 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-20T12:20:32Z UTC." /></picture></a>
+</p>
+
+<p>
+<a href="https://github.com/Dongmyung378?tab=overview"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-streak.svg?v=20261020T122032Z" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-streak-tablet.svg?v=20261020T122032Z" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-streak.svg?v=20261020T122032Z" width="49%" alt="GitHub Dongmyung378: 2 stars earned, 310 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 326 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-20T12:20:32Z UTC." /></picture></a>
+<a href="https://github.com/Dongmyung378?tab=repositories"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-languages.svg?v=20261020T122032Z" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-languages-tablet.svg?v=20261020T122032Z" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/github-languages.svg?v=20261020T122032Z" width="49%" alt="Language distribution by code bytes in public non-fork repositories. This measures code volume, not skill." /></picture></a>
+</p>
+
+<p><sub>Official GitHub data. Scheduled daily at 00:00 UTC alongside Coding Practice.<br />Cards show the last successful refresh. <a href="docs/profile-statistics.md">How the statistics are counted</a></sub></p>
+<!-- github-stats:end -->
+
 <!-- coding-stats:start -->
 <h1>Coding Practice</h1>
 

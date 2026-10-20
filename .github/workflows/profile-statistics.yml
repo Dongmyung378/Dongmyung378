@@ -31,16 +31,29 @@ jobs:
       - name: Check parsers and fallback behavior
         run: python -m unittest discover -s tests -v
       - name: Fetch official public statistics and render cards
+        id: coding
+        continue-on-error: true
         run: python scripts/update_coding_stats.py
+      - name: Fetch GitHub activity and render cards
+        id: github
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_github_stats.py
       - name: Publish refreshed cards
         shell: bash
         run: |
-          git add -- README.md data/coding-stats.json assets/stats/
+          git add -- README.md data/coding-stats.json data/github-stats.json assets/stats/
           if git diff --cached --quiet; then
             echo "The public snapshot is unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Refresh public coding statistics"
+          git commit -m "Refresh public profile statistics"
           git push origin HEAD:main
+      - name: Report upstream refresh failures
+        if: steps.coding.outcome == 'failure' || steps.github.outcome == 'failure'
+        run: |
+          echo "One or more sources could not refresh. Their last successful cards and dates were retained."
+          exit 1
