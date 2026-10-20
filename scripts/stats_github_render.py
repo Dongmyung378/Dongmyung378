@@ -53,6 +53,32 @@ def overview(record, mobile=False):
     return svg(width, height, "GitHub activity", description(record), lines)
 
 
+def overview_card(record):
+    """Match the other cards for the three-column desktop layout."""
+    width, height = 354, 334
+    center_x, center_y, radius = 177, 125, 42
+    circumference = 2*3.141592653589793*radius
+    fraction = min(record["active_days"]/365, 1)
+    lines = [text(22,35,"GitHub activity",23,ACTIVITY,600),
+             text(22,65,"Public activity / Last 365 days",14,MUTED),
+             f'<circle cx="{center_x}" cy="{center_y}" r="{radius}" fill="none" stroke="{LINE}" stroke-width="6"/>',
+             f'<circle cx="{center_x}" cy="{center_y}" r="{radius}" fill="none" stroke="{ACTIVE_DAYS}" stroke-width="6" '
+             f'stroke-dasharray="{circumference*fraction:.2f} {circumference:.2f}" stroke-linecap="round" transform="rotate(-90 {center_x} {center_y})"/>',
+             text(center_x,130,f'{record["active_days"]:,}',32,ACTIVE_DAYS,600,"middle"),
+             text(center_x,149,"active days",12,MUTED,anchor="middle")]
+    entries = [("Stars earned",record["stars"]),
+               ("Commits / last 365 days",record["commits"]),
+               ("Pull requests",record["pull_requests"]),
+               ("Issues opened",record["issues"]),
+               ("Repos committed to / 365d",record["repositories_committed_to"])]
+    for i,(label,value) in enumerate(entries):
+        y=199+i*23
+        lines += [text(22,y,label,15,MUTED),
+                  text(width-22,y,f'{value:,}',18,PRIMARY,600,"end")]
+    lines.append(text(22,321,record["updated_at"][:16].replace("T"," ")+" UTC",12,MUTED))
+    return svg(width,height,"GitHub activity",description(record),lines,vertical_gap=6)
+
+
 def streak_card(record, width=354):
     height=334
     s=record["streaks"]
@@ -112,6 +138,7 @@ def render_cards(record):
     return {
         "github-overview.svg":overview(record),
         "github-overview-mobile.svg":overview(record,True),
+        "github-overview-card.svg":overview_card(record),
         "github-streak.svg":streak_card(record),
         "github-streak-tablet.svg":streak_card(record,600),
         "github-languages.svg":language_card(record),
@@ -120,7 +147,7 @@ def render_cards(record):
 
 
 def readme_block(record):
-    version=record["updated_at"].replace("-","").replace(":","")+"-compact4"
+    version=record["updated_at"].replace("-","").replace(":","")+"-row5"
     base=f'https://raw.githubusercontent.com/{record["username"]}/{record["username"]}/main/assets/stats/'
     alt=escape(description(record),quote=True)
     profile=f'https://github.com/{record["username"]}'
@@ -128,12 +155,9 @@ def readme_block(record):
 <h2>GitHub Stats</h2>
 
 <p>
-<a href="{profile}?tab=overview"><picture><source media="(max-width: 480px)" srcset="{base}github-overview-mobile.svg?v={version}" /><img src="{base}github-overview.svg?v={version}" width="100%" alt="{alt}" /></picture></a>
-</p>
-
-<p>
-<a href="{profile}?tab=overview"><picture><source media="(max-width: 480px)" srcset="{base}github-streak.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-streak-tablet.svg?v={version}" width="100%" /><img src="{base}github-streak.svg?v={version}" width="49%" alt="{alt}" /></picture></a>
-<a href="{profile}?tab=repositories"><picture><source media="(max-width: 480px)" srcset="{base}github-languages.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-languages-tablet.svg?v={version}" width="100%" /><img src="{base}github-languages.svg?v={version}" width="49%" alt="Language distribution by code bytes in public non-fork repositories. This measures code volume, not skill." /></picture></a>
+<a href="{profile}?tab=overview"><picture><source media="(max-width: 480px)" srcset="{base}github-overview-card.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-overview.svg?v={version}" width="100%" /><img src="{base}github-overview-card.svg?v={version}" width="32%" alt="{alt}" /></picture></a>
+<a href="{profile}?tab=overview"><picture><source media="(max-width: 480px)" srcset="{base}github-streak.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-streak-tablet.svg?v={version}" width="100%" /><img src="{base}github-streak.svg?v={version}" width="32%" alt="{alt}" /></picture></a>
+<a href="{profile}?tab=repositories"><picture><source media="(max-width: 480px)" srcset="{base}github-languages.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-languages-tablet.svg?v={version}" width="100%" /><img src="{base}github-languages.svg?v={version}" width="32%" alt="Language distribution by code bytes in public non-fork repositories. This measures code volume, not skill." /></picture></a>
 </p>
 
 <p><sub>Official GitHub data / Daily at 00:00 UTC / Last successful refresh shown. <a href="docs/profile-statistics.md">How the statistics are counted</a></sub></p>
