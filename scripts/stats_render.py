@@ -120,5 +120,5 @@ def readme_block(records):
 <a href="https://leetcode.com/u/Dongmyung/"><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="370" alt="'''+escape(alt_text(records, "leetcode"), quote=True)+'''" /></a>
 </p>
 
-<p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:17 UTC. Cards show the last successful refresh (UTC).</sub></p>
+<p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:00 UTC. Cards show the last successful refresh (UTC).</sub></p>
 <!-- coding-stats:end -->'''
