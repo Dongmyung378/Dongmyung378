@@ -41,9 +41,9 @@
 <h3>Coding Practice</h3>
 
 <picture>
-  <source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-mobile.svg?v=20261020T001412Z" />
-  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-tablet.svg?v=20261020T001412Z" />
-  <img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-wide.svg?v=20261020T001412Z" width="100%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." />
+  <source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-mobile.svg?v=20261020T002955Z" />
+  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-tablet.svg?v=20261020T002955Z" />
+  <img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-wide.svg?v=20261020T002955Z" width="100%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." />
 </picture>
 
 <p><sub>Scheduled hourly. Cards show the last successful refresh (UTC).</sub></p>
