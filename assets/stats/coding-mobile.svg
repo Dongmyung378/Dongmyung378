@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Coding practice</title>
-<desc id="desc">AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC.</desc>
+<desc id="desc">AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank #4,815,550; updated 2026-10-20 UTC.</desc>
 <rect x="0.5" y="0.5" width="359" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#C6B3FF" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="340" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
@@ -19,7 +19,7 @@
 <circle cx="340.0" cy="214.0" r="3" fill="#C6B3FF"/>
 <text x="20" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
 <text x="340" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
-<text x="20" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 01:21 UTC</text>
+<text x="20" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:28 UTC</text>
 <rect x="0.5" y="328.5" width="359" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="360" fill="#EBC078" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
 <text x="340" y="360" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
@@ -35,6 +35,6 @@
 <text x="20.0" y="561" fill="#79D4B3" font-size="16" font-weight="400" text-anchor="start">Easy 0</text>
 <text x="180.0" y="561" fill="#EBC078" font-size="16" font-weight="400" text-anchor="middle">Medium 17</text>
 <text x="340.0" y="561" fill="#E794A5" font-size="16" font-weight="400" text-anchor="end">Hard 1</text>
-<text x="20" y="595" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: 5M+</text>
-<text x="20" y="622" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 01:21 UTC</text>
+<text x="20" y="595" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,815,550</text>
+<text x="20" y="622" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:28 UTC</text>
 </svg>
