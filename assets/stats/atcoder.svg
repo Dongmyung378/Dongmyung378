@@ -2,21 +2,21 @@
 <title id="title">AtCoder coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC.</desc>
 <rect x="8.5" y="0.5" width="353" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="28" y="32" fill="#C6B3FF" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
-<text x="342" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
-<text x="28" y="88" fill="#E6EEF8" font-size="44" font-weight="600" text-anchor="start">266</text>
-<text x="28" y="112" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rating (provisional)</text>
-<text x="28" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rank</text>
-<text x="191.0" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rated contests</text>
-<text x="28" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#45,059</text>
-<text x="191.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">4</text>
-<text x="28" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 266</text>
+<text x="28" y="32" fill="#BCADF5" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
+<text x="342" y="32" fill="#ABBFE0" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
+<text x="28" y="88" fill="#DECEFF" font-size="44" font-weight="600" text-anchor="start">266</text>
+<text x="28" y="112" fill="#B2BFE2" font-size="16" font-weight="400" text-anchor="start">Algorithm rating (provisional)</text>
+<text x="28" y="146" fill="#A8C6DA" font-size="16" font-weight="400" text-anchor="start">Algorithm rank</text>
+<text x="191.0" y="146" fill="#CDB8D7" font-size="16" font-weight="400" text-anchor="start">Rated contests</text>
+<text x="28" y="171" fill="#A1CDEB" font-size="22" font-weight="600" text-anchor="start">#45,059</text>
+<text x="191.0" y="171" fill="#E2B1D0" font-size="22" font-weight="600" text-anchor="start">4</text>
+<text x="28" y="200" fill="#C4B9E7" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 266</text>
 <path d="M 28 250 H 342" stroke="#34465E"/>
-<polyline points="28.0,249.73 132.67,236.2 237.33,237.41 342.0,214.0" fill="none" stroke="#C6B3FF" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="28.0" cy="249.73" r="3" fill="#C6B3FF"/>
-<circle cx="132.67" cy="236.2" r="3" fill="#C6B3FF"/>
-<circle cx="237.33" cy="237.41" r="3" fill="#C6B3FF"/>
-<circle cx="342.0" cy="214.0" r="3" fill="#C6B3FF"/>
+<polyline points="28.0,249.73 132.67,236.2 237.33,237.41 342.0,214.0" fill="none" stroke="#BCADF5" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="28.0" cy="249.73" r="3" fill="#BCADF5"/>
+<circle cx="132.67" cy="236.2" r="3" fill="#BCADF5"/>
+<circle cx="237.33" cy="237.41" r="3" fill="#BCADF5"/>
+<circle cx="342.0" cy="214.0" r="3" fill="#BCADF5"/>
 <text x="28" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
 <text x="342" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
 <text x="28" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:28 UTC</text>

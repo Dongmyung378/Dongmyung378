@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="230" viewBox="8 0 354 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering</title>
 <rect x="8.5" y="0.5" width="353" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="28" y="30" font-size="14" fill="#A6B9D0" font-weight="600">INTERESTS</text>
+<text x="28" y="30" font-size="14" fill="#E3B4EF" font-weight="600">INTERESTS</text>
 <rect x="28" y="48" width="314" height="30" rx="7" fill="#22334A"/>
-<text x="185" y="69" font-size="18" fill="#C3DAF7" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
+<text x="185" y="69" font-size="18" fill="#9ADFEA" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
 <rect x="28" y="88" width="314" height="30" rx="7" fill="#382B3C"/>
-<text x="185" y="109" font-size="18" fill="#E8CBE1" font-weight="600" text-anchor="middle">Robotics</text>
+<text x="185" y="109" font-size="18" fill="#F4B5CE" font-weight="600" text-anchor="middle">Robotics</text>
 <rect x="28" y="128" width="314" height="30" rx="7" fill="#3A3223"/>
-<text x="185" y="149" font-size="18" fill="#ECDDAD" font-weight="600" text-anchor="middle">Autonomous Driving</text>
+<text x="185" y="149" font-size="18" fill="#EAD698" font-weight="600" text-anchor="middle">Autonomous Driving</text>
 <rect x="28" y="168" width="314" height="30" rx="7" fill="#203A38"/>
-<text x="185" y="189" font-size="18" fill="#B9E5DC" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+<text x="185" y="189" font-size="18" fill="#AEDB9A" font-weight="600" text-anchor="middle">Rocket Engineering</text>
 </svg>

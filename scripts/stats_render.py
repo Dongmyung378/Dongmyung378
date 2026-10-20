@@ -20,21 +20,22 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
     left, right = x + 20, x + width - 20
     center = x + width / 2
     heading, body, small = (17, 13, 13) if compact else (24, 18, 16) if mobile else (20, 16, 14)
-    accent = "#C6B3FF" if platform == "AtCoder" else "#EBC078"
+    accent = "#BCADF5" if platform == "AtCoder" else "#F0C17D"
+    heading_note = "#ABBFE0" if platform == "AtCoder" else "#DCC9AD"
     lines = [f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14" fill="#101B2B" stroke="#34465E"/>']
-    lines += [text(left, y+32, platform, heading, accent, 600), text(right, y+32, record["username"], small, "#B6C5D6", anchor="end")]
+    lines += [text(left, y+32, platform, heading, accent, 600), text(right, y+32, record["username"], small, heading_note, anchor="end")]
     if platform == "AtCoder":
         value = "Unrated" if record["rating"] is None else f'{record["rating"]:,}'
-        lines.append(text(left, y+88, value, 36 if compact else 44, weight=600))
+        lines.append(text(left, y+88, value, 36 if compact else 44, "#DECEFF", weight=600))
         suffix = " (provisional)" if record["provisional"] else ""
-        lines.append(text(left, y+112, "Algorithm rating"+suffix, small, "#B6C5D6"))
-        lines += [text(left, y+146, "Algorithm rank", small, "#B6C5D6"), text(center+6, y+146, "Rated contests", small, "#B6C5D6")]
+        lines.append(text(left, y+112, "Algorithm rating"+suffix, small, "#B2BFE2"))
+        lines += [text(left, y+146, "Algorithm rank", small, "#A8C6DA"), text(center+6, y+146, "Rated contests", small, "#CDB8D7")]
         rank = "Unranked" if record["rank"] is None else f'#{record["rank"]:,}'
-        lines += [text(left, y+171, rank, body+4, weight=600), text(center+6, y+171, record["rated_contests"], body+4, weight=600)]
+        lines += [text(left, y+171, rank, body+4, "#A1CDEB", weight=600), text(center+6, y+171, record["rated_contests"], body+4, "#E2B1D0", weight=600)]
         history = record["history"][-12:]
         if history:
             peak = record["highest_rating"]
-            lines.append(text(left, y+200, f"Rating history / Peak {peak:,}", small, "#B6C5D6"))
+            lines.append(text(left, y+200, f"Rating history / Peak {peak:,}", small, "#C4B9E7"))
             lo = min(0, min(item["rating"] for item in history))
             hi = max(1, max(item["rating"] for item in history))
             points = []
@@ -51,10 +52,10 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
         else:
             lines.append(text(left, y+219, "No rated contests yet", body, "#B6C5D6"))
     else:
-        lines += [text(left, y+88, f'{record["solved"]:,}', 36 if compact else 44, weight=600), text(left, y+112, "Problems solved", small, "#B6C5D6")]
+        lines += [text(left, y+88, f'{record["solved"]:,}', 36 if compact else 44, "#F7D690", weight=600), text(left, y+112, "Problems solved", small, "#D5C6A2")]
         contest = record["contest"]
         rating = "Unrated" if contest["rating"] is None else f'{contest["rating"]:,.0f}'
-        lines += [text(left, y+146, "Contest rating", small, "#B6C5D6"), text(center+6, y+146, f'Active days {record["activity_year"]}', small, "#B6C5D6"), text(left, y+171, rating, body+3, weight=600), text(center+6, y+171, record["active_days"], body+4, weight=600)]
+        lines += [text(left, y+146, "Contest rating", small, "#D3BDA5"), text(center+6, y+146, f'Active days {record["activity_year"]}', small, "#AFCEBE"), text(left, y+171, rating, body+3, "#EDC7A7", weight=600), text(center+6, y+171, record["active_days"], body+4, "#9ED8B9", weight=600)]
         lines.append(f'<rect x="{left}" y="{y+197}" width="{right-left}" height="10" rx="5" fill="#293A50"/>')
         px = left
         for difficulty in ("Easy", "Medium", "Hard"):
@@ -67,7 +68,7 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
             px = left + (right-left) * i / 2
             anchor = ("start", "middle", "end")[i]
             lines.append(text(px, y+233, f'{difficulty} {record["difficulty"][difficulty]}', small, COLORS[difficulty], anchor=anchor))
-        lines.append(text(left, y+267, f'Profile rank: {profile_rank(record["profile_rank"])}', small, "#B6C5D6"))
+        lines.append(text(left, y+267, f'Profile rank: {profile_rank(record["profile_rank"])}', small, "#B6CEE4"))
     refreshed = record["updated_at"][:16].replace("T", " ")
     lines.append(text(left, y+294, f'{refreshed} UTC', small, "#A6B9D0"))
     return lines
@@ -115,7 +116,7 @@ def alt_text(records, platform=None):
 
 
 def readme_block(records):
-    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")
+    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-colors2"
     return '''<!-- coding-stats:start -->
 <h1>Coding Practice</h1>
 

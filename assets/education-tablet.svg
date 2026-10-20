@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="230" viewBox="0 0 600 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026</title>
 <rect x="0.5" y="0.5" width="599" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="24" y="34" font-size="18" fill="#A6B9D0" font-weight="600">EDUCATION</text>
-<text x="24" y="77" font-size="28" fill="#E9F0F8" font-weight="600">University of Manchester</text>
-<text x="24" y="108" font-size="23" fill="#E9F0F8">BSc Artificial Intelligence</text>
-<text x="24" y="150" font-size="22" fill="#9AC5FF" font-weight="600">First Class Honours</text>
+<text x="24" y="34" font-size="18" fill="#90C9FA" font-weight="600">EDUCATION</text>
+<text x="24" y="77" font-size="28" fill="#D1E5FF" font-weight="600">University of Manchester</text>
+<text x="24" y="108" font-size="23" fill="#B8CEDF">BSc Artificial Intelligence</text>
+<text x="24" y="150" font-size="22" fill="#F6D88C" font-weight="600">First Class Honours</text>
 <text x="24" y="181" font-size="21" fill="#B6C5D6">September 2021 – July 2026</text>
 </svg>
