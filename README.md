@@ -15,11 +15,10 @@
 <a href="https://leetcode.com/u/Dongmyung/"><img src="assets/links/leetcode.svg" width="110" height="44" alt="LeetCode" /></a>
 </p>
 
-<picture>
-  <source media="(max-width: 480px)" srcset="assets/overview-mobile.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/overview-tablet.svg" />
-  <img src="assets/overview-wide.svg" width="100%" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026. Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." />
-</picture>
+<p>
+<img src="assets/education.svg" width="370" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026." />
+<picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg" /><img src="assets/interests.svg" width="370" alt="Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." /></picture>
+</p>
 
 <h3>Tech Stack</h3>
 
