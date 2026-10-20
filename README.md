@@ -43,7 +43,7 @@
 <picture>
   <source media="(max-width: 480px)" srcset="assets/stats/coding-mobile.svg" />
   <source media="(max-width: 1100px)" srcset="assets/stats/coding-tablet.svg" />
-  <img src="assets/stats/coding-wide.svg" width="100%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-19 UTC. LeetCode Dongmyung: 16 problems solved, Easy 0, Medium 16, Hard 0, contest rating unrated, 5 active days in 2026, profile rank 5M+; updated 2026-10-19 UTC." />
+  <img src="assets/stats/coding-wide.svg" width="100%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank 5M+; updated 2026-10-20 UTC." />
 </picture>
 
 <p><sub>Updated daily from public profiles. Each card shows its last successful refresh.</sub></p>
