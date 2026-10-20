@@ -68,7 +68,8 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
             anchor = ("start", "middle", "end")[i]
             lines.append(text(px, y+233, f'{difficulty} {record["difficulty"][difficulty]}', small, COLORS[difficulty], anchor=anchor))
         lines.append(text(left, y+267, f'Profile rank: {profile_rank(record["profile_rank"])}', small, "#B6C5D6"))
-    lines.append(text(left, y+294, f'Updated {record["updated_at"][:10]} UTC', small, "#A6B9D0"))
+    refreshed = record["updated_at"][:16].replace("T", " ")
+    lines.append(text(left, y+294, f'{refreshed} UTC', small, "#A6B9D0"))
     return lines
 
 
@@ -102,14 +103,15 @@ def alt_text(records):
 
 
 def readme_block(records):
+    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")
     return '''<!-- coding-stats:start -->
 <h3>Coding Practice</h3>
 
 <picture>
-  <source media="(max-width: 480px)" srcset="assets/stats/coding-mobile.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/stats/coding-tablet.svg" />
-  <img src="assets/stats/coding-wide.svg" width="100%" alt="'''+escape(alt_text(records), quote=True)+'''" />
+  <source media="(max-width: 480px)" srcset="assets/stats/coding-mobile.svg?v='''+version+'''" />
+  <source media="(max-width: 1100px)" srcset="assets/stats/coding-tablet.svg?v='''+version+'''" />
+  <img src="assets/stats/coding-wide.svg?v='''+version+'''" width="100%" alt="'''+escape(alt_text(records), quote=True)+'''" />
 </picture>
 
-<p><sub>Updated daily from public profiles. Each card shows its last successful refresh.</sub></p>
+<p><sub>Scheduled hourly. Cards show the last successful refresh (UTC).</sub></p>
 <!-- coding-stats:end -->'''

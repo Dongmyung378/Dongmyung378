@@ -4,8 +4,8 @@ The profile cards use official public data from [AtCoder ParkDM](https://atcoder
 
 - AtCoder values refer to **Algorithm** contests. The graph uses `NewRating` from rated contests, not performance scores or contest placement. A provisional rating stays labelled provisional.
 - LeetCode solved counts are distinct accepted problems, not accepted submission counts. Active days are scoped to the calendar year shown. The profile rank and the contest rating are different metrics. Profile ranks above five million are displayed as `5M+`; absent contest ratings are `Unrated`, not zero.
-- Each card displays its last successful UTC refresh date. Failed sources retain their previous values and original date. The initial update requires both sources to succeed, and a total fetch failure leaves published files unchanged.
-- The scheduled workflow runs daily at 21:17 UTC (06:17 Korea time the next day) and can also be run manually. GitHub may delay scheduled jobs or disable them for inactive public repositories. The displayed date, rather than a live-status claim, indicates freshness.
+- Each card displays its last successful UTC refresh time. Failed sources retain their previous values and original timestamp. The initial update requires both sources to succeed, and a total fetch failure leaves published files unchanged. Image URLs include the successful refresh version so an earlier cached card is not reused for a new snapshot.
+- The scheduled workflow runs hourly at minute 7 and can also be run manually. An hourly schedule provides another refresh opportunity after a missed run. GitHub may delay or drop scheduled jobs, or disable them for inactive public repositories. The displayed timestamp, rather than a live-status claim, indicates freshness.
 
 Run `python scripts/update_coding_stats.py` to fetch and render, or add `--render-only` to regenerate SVGs from `data/coding-stats.json`. Run `python -m unittest discover -s tests -v` to verify parsing and failure handling. Python 3.12 or newer is sufficient; no additional packages are required.
 
