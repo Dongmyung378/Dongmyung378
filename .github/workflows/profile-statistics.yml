@@ -1,14 +1,14 @@
-name: Refresh coding statistics
+name: Update profile statistics
 
 on:
   schedule:
-    - cron: "23 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch:
   push:
     paths:
       - "scripts/**"
       - "tests/**"
-      - ".github/workflows/coding-stats.yml"
+      - ".github/workflows/profile-statistics.yml"
 
 permissions:
   contents: write
