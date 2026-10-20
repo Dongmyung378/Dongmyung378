@@ -117,7 +117,7 @@ def alt_text(records, platform=None):
 def readme_block(records):
     version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")
     return '''<!-- coding-stats:start -->
-<h3>Coding Practice</h3>
+<h1>Coding Practice</h1>
 
 <p>
 <a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder-tablet.svg?v='''+version+'''" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="49%" alt="'''+escape(alt_text(records, "atcoder"), quote=True)+'''" /></picture></a>

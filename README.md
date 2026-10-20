@@ -20,24 +20,24 @@
 <picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg" width="100%" /><source media="(max-width: 1000px)" srcset="assets/interests-tablet.svg" width="100%" /><img src="assets/interests.svg" width="49%" alt="Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." /></picture>
 </p>
 
-<h2>Tech Stack</h2>
+<h1>Tech Stack</h1>
 
 <p>
-<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" title="Python" /></a>
-<a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" title="C++" /></a>
-<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" title="Java" /></a>
-<img src="assets/tech/sql.svg" width="48" height="48" alt="SQL" title="SQL" />
-<a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" title="PyTorch" /></a>
-<a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" title="TensorFlow" /></a>
-<a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="48" height="48" alt="scikit-learn" title="scikit-learn" /></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" title="FastAPI" /></a>
-<a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring" title="Spring" /></a>
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" title="Git" /></a>
-<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" title="Docker" /></a>
+<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="60" height="60" alt="Python" title="Python" /></a>
+<a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="60" height="60" alt="C++" title="C++" /></a>
+<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="60" height="60" alt="Java" title="Java" /></a>
+<img src="assets/tech/sql.svg" width="60" height="60" alt="SQL" title="SQL" />
+<a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="60" height="60" alt="PyTorch" title="PyTorch" /></a>
+<a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="60" height="60" alt="TensorFlow" title="TensorFlow" /></a>
+<a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="60" height="60" alt="scikit-learn" title="scikit-learn" /></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="60" height="60" alt="FastAPI" title="FastAPI" /></a>
+<a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" width="60" height="60" alt="Spring" title="Spring" /></a>
+<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="60" height="60" alt="Git" title="Git" /></a>
+<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="60" height="60" alt="Docker" title="Docker" /></a>
 </p>
 
 <!-- coding-stats:start -->
-<h3>Coding Practice</h3>
+<h1>Coding Practice</h1>
 
 <p>
 <a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T011021Z" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder-tablet.svg?v=20261020T011021Z" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v=20261020T011021Z" width="49%" alt="AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC." /></picture></a>
