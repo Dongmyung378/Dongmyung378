@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="354" height="328" viewBox="8 0 354 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="306" viewBox="8 0 354 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">AtCoder coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC.</desc>
-<rect x="8.5" y="0.5" width="353" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
+<rect x="8.5" y="0.5" width="353" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="28" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="342" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
 <text x="28" y="88" fill="#9AC5EA" font-size="44" font-weight="600" text-anchor="start">266</text>
@@ -11,13 +11,13 @@
 <text x="28" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#45,059</text>
 <text x="191.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">4</text>
 <text x="28" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 266</text>
-<path d="M 28 250 H 342" stroke="#34465E"/>
-<polyline points="28.0,249.73 132.67,236.2 237.33,237.41 342.0,214.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="28.0" cy="249.73" r="3" fill="#9AC5EA"/>
-<circle cx="132.67" cy="236.2" r="3" fill="#9AC5EA"/>
-<circle cx="237.33" cy="237.41" r="3" fill="#9AC5EA"/>
-<circle cx="342.0" cy="214.0" r="3" fill="#9AC5EA"/>
-<text x="28" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
-<text x="342" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
-<text x="28" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
+<path d="M 28 234 H 342" stroke="#34465E"/>
+<polyline points="28.0,233.79 132.67,223.26 237.33,224.21 342.0,206.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="28.0" cy="233.79" r="3" fill="#9AC5EA"/>
+<circle cx="132.67" cy="223.26" r="3" fill="#9AC5EA"/>
+<circle cx="237.33" cy="224.21" r="3" fill="#9AC5EA"/>
+<circle cx="342.0" cy="206.0" r="3" fill="#9AC5EA"/>
+<text x="28" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
+<text x="342" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
+<text x="28" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
 </svg>

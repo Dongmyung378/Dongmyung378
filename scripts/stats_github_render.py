@@ -22,7 +22,7 @@ def svg(width, height, title, description, content, vertical_gap=0):
 
 
 def overview(record, mobile=False):
-    width, height = (354, 466) if mobile else (760, 300)
+    width, height = (354, 440) if mobile else (760, 280)
     center_x, center_y, radius = (177, 122, 61) if mobile else (606, 150, 78)
     # Circle shows an actual proportion of active days, not an invented rank.
     circumference = 2*3.141592653589793*radius
@@ -54,7 +54,7 @@ def overview(record, mobile=False):
 
 
 def streak_card(record, width=354):
-    height=356
+    height=334
     s=record["streaks"]
     center=width/2
     lines=[text(22,35,"Contribution streak",23,STREAK,600),
@@ -70,13 +70,13 @@ def streak_card(record, width=354):
     lines += [text(22,252,"Since "+record["created_at"],14,MUTED)]
     longest = f'{s["longest_start"]} to {s["longest_end"]}' if s["longest"] else "No contribution streak yet"
     lines += [text(22,283,"Longest: "+longest,12,MUTED)]
-    lines += [text(22,321,"Streak lengths are measured in days.",13,MUTED),
-              text(22,340,"An unfinished UTC day does not break a streak.",12,MUTED)]
+    lines += [text(22,300,"Streak lengths are measured in days.",13,MUTED),
+              text(22,318,"An unfinished UTC day does not break a streak.",12,MUTED)]
     return svg(width,height,"GitHub contribution streak",description(record),lines,vertical_gap=6)
 
 
 def language_card(record, width=354):
-    height=356
+    height=334
     languages=record["languages"]
     shown=languages[:8]
     if len(languages)>8:
@@ -90,14 +90,14 @@ def language_card(record, width=354):
         lines.append(f'<rect x="{x:.3f}" y="83" width="{segment:.3f}" height="12" fill="{escape(item["color"])}" clip-path="url(#bar)"/>')
         x+=segment
     for i,item in enumerate(shown):
-        y=124+i*22
+        y=120+i*20
         lines += [f'<circle cx="28" cy="{y-5}" r="5" fill="{escape(item["color"])}"/>',
                   text(42,y,item["name"],15,PRIMARY),
                   text(width-22,y,f'{item["percent"]:.2f}%',15,MUTED,anchor="end")]
     if not shown:
         lines.append(text(22,138,"No language data available",16,MUTED))
-    lines += [text(22,326,f'{record["public_repositories"]} repositories / GitHub language bytes',12,MUTED),
-              text(22,344,"Code volume, not proficiency or time spent.",12,MUTED)]
+    lines += [text(22,304,f'{record["public_repositories"]} repositories / GitHub language bytes',12,MUTED),
+              text(22,322,"Code volume, not proficiency or time spent.",12,MUTED)]
     return svg(width,height,"Most used languages",description(record),lines,vertical_gap=6)
 
 
@@ -120,12 +120,12 @@ def render_cards(record):
 
 
 def readme_block(record):
-    version=record["updated_at"].replace("-","").replace(":","")+"-calm3"
+    version=record["updated_at"].replace("-","").replace(":","")+"-compact4"
     base=f'https://raw.githubusercontent.com/{record["username"]}/{record["username"]}/main/assets/stats/'
     alt=escape(description(record),quote=True)
     profile=f'https://github.com/{record["username"]}'
     return f'''<!-- github-stats:start -->
-<h1>GitHub Stats</h1>
+<h2>GitHub Stats</h2>
 
 <p>
 <a href="{profile}?tab=overview"><picture><source media="(max-width: 480px)" srcset="{base}github-overview-mobile.svg?v={version}" /><img src="{base}github-overview.svg?v={version}" width="100%" alt="{alt}" /></picture></a>
@@ -136,5 +136,5 @@ def readme_block(record):
 <a href="{profile}?tab=repositories"><picture><source media="(max-width: 480px)" srcset="{base}github-languages.svg?v={version}" width="100%" /><source media="(max-width: 1000px)" srcset="{base}github-languages-tablet.svg?v={version}" width="100%" /><img src="{base}github-languages.svg?v={version}" width="49%" alt="Language distribution by code bytes in public non-fork repositories. This measures code volume, not skill." /></picture></a>
 </p>
 
-<p><sub>Official GitHub data. Scheduled daily at 00:00 UTC alongside Coding Practice.<br />Cards show the last successful refresh. <a href="docs/profile-statistics.md">How the statistics are counted</a></sub></p>
+<p><sub>Official GitHub data / Daily at 00:00 UTC / Last successful refresh shown. <a href="docs/profile-statistics.md">How the statistics are counted</a></sub></p>
 <!-- github-stats:end -->'''

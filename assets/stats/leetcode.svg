@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="354" height="328" viewBox="8 0 354 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="306" viewBox="8 0 354 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">LeetCode coding practice</title>
 <desc id="desc">LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank #4,815,550; updated 2026-10-20 UTC.</desc>
-<rect x="8.5" y="0.5" width="353" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
+<rect x="8.5" y="0.5" width="353" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="28" y="32" fill="#DCC596" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
 <text x="342" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
 <text x="28" y="88" fill="#DCC596" font-size="44" font-weight="600" text-anchor="start">18</text>
@@ -16,6 +16,6 @@
 <text x="28.0" y="233" fill="#79D4B3" font-size="16" font-weight="400" text-anchor="start">Easy 0</text>
 <text x="185.0" y="233" fill="#EBC078" font-size="16" font-weight="400" text-anchor="middle">Medium 17</text>
 <text x="342.0" y="233" fill="#E794A5" font-size="16" font-weight="400" text-anchor="end">Hard 1</text>
-<text x="28" y="267" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,815,550</text>
-<text x="28" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
+<text x="28" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,815,550</text>
+<text x="28" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
 </svg>

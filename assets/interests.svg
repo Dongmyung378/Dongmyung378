@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="354" height="230" viewBox="8 0 354 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="213.9" viewBox="8 0 354 213.9" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering</title>
-<rect x="8.5" y="0.5" width="353" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="28" y="34" font-size="14" fill="#91CBB9" font-weight="600">INTERESTS</text>
-<rect x="28" y="63" width="150" height="48" rx="9" fill="#223247"/>
-<text x="103" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
-<rect x="192" y="63" width="150" height="48" rx="9" fill="#223247"/>
-<text x="267" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
-<rect x="28" y="131" width="150" height="48" rx="9" fill="#223247"/>
-<text x="103" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Autonomous Driving</text>
-<rect x="192" y="131" width="150" height="48" rx="9" fill="#223247"/>
-<text x="267" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+<rect x="8.5" y="0.465" width="353" height="198.09" rx="14" fill="#101B2B" stroke="#34465E"/>
+<text x="28" y="31.62" font-size="13.3" fill="#91CBB9" font-weight="600">INTERESTS</text>
+<rect x="28" y="58.59" width="150" height="44.64" rx="9" fill="#223247"/>
+<text x="103" y="85.56" font-size="12.35" fill="#E6EEF8" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
+<rect x="192" y="58.59" width="150" height="44.64" rx="9" fill="#223247"/>
+<text x="267" y="85.56" font-size="12.35" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
+<rect x="28" y="121.83" width="150" height="44.64" rx="9" fill="#223247"/>
+<text x="103" y="148.8" font-size="12.35" fill="#E6EEF8" font-weight="600" text-anchor="middle">Autonomous Driving</text>
+<rect x="192" y="121.83" width="150" height="44.64" rx="9" fill="#223247"/>
+<text x="267" y="148.8" font-size="12.35" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
 </svg>

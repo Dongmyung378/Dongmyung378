@@ -18,7 +18,7 @@ def profile_rank(value):
 
 
 def panel(x, y, width, record, platform, compact=False, mobile=False):
-    height = 312
+    height = 294
     left, right = x + 20, x + width - 20
     center = x + width / 2
     heading, body, small = (17, 13, 13) if compact else (24, 18, 16) if mobile else (20, 16, 14)
@@ -42,14 +42,14 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
             points = []
             for i, item in enumerate(history):
                 px = left + (right-left) * i / max(len(history)-1, 1)
-                py = y+250 - 36*(item["rating"]-lo)/(hi-lo)
+                py = y+234 - 28*(item["rating"]-lo)/(hi-lo)
                 points.append((round(px, 2), round(py, 2)))
             path = " ".join(f"{px},{py}" for px, py in points)
-            lines.append(f'<path d="M {left} {y+250} H {right}" stroke="#34465E"/>')
+            lines.append(f'<path d="M {left} {y+234} H {right}" stroke="#34465E"/>')
             lines.append(f'<polyline points="{path}" fill="none" stroke="{accent}" stroke-width="2.5" stroke-linejoin="round"/>')
             for px, py in points:
                 lines.append(f'<circle cx="{px}" cy="{py}" r="3" fill="{accent}"/>')
-            lines += [text(left, y+269, history[0]["date"][5:], small, "#B6C5D6"), text(right, y+269, history[-1]["date"][5:], small, "#B6C5D6", anchor="end")]
+            lines += [text(left, y+256, history[0]["date"][5:], small, "#B6C5D6"), text(right, y+256, history[-1]["date"][5:], small, "#B6C5D6", anchor="end")]
         else:
             lines.append(text(left, y+219, "No rated contests yet", body, "#B6C5D6"))
     else:
@@ -69,9 +69,9 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
             px = left + (right-left) * i / 2
             anchor = ("start", "middle", "end")[i]
             lines.append(text(px, y+233, f'{difficulty} {record["difficulty"][difficulty]}', small, COLORS[difficulty], anchor=anchor))
-        lines.append(text(left, y+267, f'Profile rank: {profile_rank(record["profile_rank"])}', small, MUTED))
+        lines.append(text(left, y+256, f'Profile rank: {profile_rank(record["profile_rank"])}', small, MUTED))
     refreshed = record["updated_at"][:16].replace("T", " ")
-    lines.append(text(left, y+294, f'{refreshed} UTC', small, "#A6B9D0"))
+    lines.append(text(left, y+280, f'{refreshed} UTC', small, "#A6B9D0"))
     return lines
 
 
@@ -79,9 +79,9 @@ def render_cards(records):
     """Keep wide, tablet and mobile SVG content synchronized from one snapshot."""
     output = {}
     for name, width, height, panel_width, coords, compact in [
-        ("wide", 760, 312, 370, [(0, 0), (390, 0)], False),
-        ("tablet", 500, 312, 240, [(0, 0), (260, 0)], True),
-        ("mobile", 360, 640, 360, [(0, 0), (0, 328)], False),
+        ("wide", 760, 294, 370, [(0, 0), (390, 0)], False),
+        ("tablet", 500, 294, 240, [(0, 0), (260, 0)], True),
+        ("mobile", 360, 608, 360, [(0, 0), (0, 310)], False),
     ]:
         content = []
         for (x, y), key, label in zip(coords, ("atcoder", "leetcode"), ("AtCoder", "LeetCode")):
@@ -92,11 +92,11 @@ def render_cards(records):
             f'<desc id="desc">{escape(description)}</desc>\n'+"\n".join(content)+'\n</svg>\n')
     for key, label in (("atcoder", "AtCoder"), ("leetcode", "LeetCode")):
         content = panel(8, 0, 354, records[key], label, mobile=True)
-        output[f"{key}.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="354" height="328" viewBox="8 0 354 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+        output[f"{key}.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="354" height="306" viewBox="8 0 354 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
             f'<title id="title">{label} coding practice</title>\n'
             f'<desc id="desc">{escape(alt_text(records, key))}</desc>\n'+"\n".join(content)+'\n</svg>\n')
         content = panel(0, 0, 600, records[key], label, mobile=True)
-        output[f"{key}-tablet.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="328" viewBox="0 0 600 328" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+        output[f"{key}-tablet.svg"] = ('<svg xmlns="http://www.w3.org/2000/svg" width="600" height="306" viewBox="0 0 600 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
             f'<title id="title">{label} coding practice</title>\n'
             f'<desc id="desc">{escape(alt_text(records, key))}</desc>\n'+"\n".join(content)+'\n</svg>\n')
     return output
@@ -117,14 +117,14 @@ def alt_text(records, platform=None):
 
 
 def readme_block(records):
-    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-calm3"
+    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-compact4"
     return '''<!-- coding-stats:start -->
-<h1>Coding Practice</h1>
+<h2>Coding Practice</h2>
 
 <p>
 <a href="https://atcoder.jp/users/ParkDM"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder-tablet.svg?v='''+version+'''" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/atcoder.svg?v='''+version+'''" width="49%" alt="'''+escape(alt_text(records, "atcoder"), quote=True)+'''" /></picture></a>
 <a href="https://leetcode.com/u/Dongmyung/"><picture><source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="100%" /><source media="(max-width: 1000px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode-tablet.svg?v='''+version+'''" width="100%" /><img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/leetcode.svg?v='''+version+'''" width="49%" alt="'''+escape(alt_text(records, "leetcode"), quote=True)+'''" /></picture></a>
 </p>
 
-<p><sub>Open a card to view the latest official profile.<br />Scheduled daily at 00:00 UTC. Cards show the last successful refresh (UTC).</sub></p>
+<p><sub>Open a card for the official profile / Daily at 00:00 UTC / Last successful refresh shown.</sub></p>
 <!-- coding-stats:end -->'''

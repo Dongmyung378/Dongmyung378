@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="354" height="230" viewBox="8 0 354 230" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="354" height="213.9" viewBox="8 0 354 213.9" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 to July 2026</title>
-<rect x="8.5" y="0.5" width="353" height="213" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="28" y="34" font-size="14" fill="#9AC5EA" font-weight="600">EDUCATION</text>
-<text x="28" y="77" font-size="22" fill="#E6EEF8" font-weight="600">University of Manchester</text>
-<text x="28" y="106" font-size="17" fill="#B6C5D6">BSc Artificial Intelligence</text>
-<text x="28" y="150" font-size="16" fill="#DCC596" font-weight="600">First Class Honours</text>
-<text x="28" y="179" font-size="15" fill="#B6C5D6">September 2021 – July 2026</text>
+<rect x="8.5" y="0.465" width="353" height="198.09" rx="14" fill="#101B2B" stroke="#34465E"/>
+<text x="28" y="31.62" font-size="13.3" fill="#9AC5EA" font-weight="600">EDUCATION</text>
+<text x="28" y="71.61" font-size="20.9" fill="#E6EEF8" font-weight="600">University of Manchester</text>
+<text x="28" y="98.58" font-size="16.15" fill="#B6C5D6">BSc Artificial Intelligence</text>
+<text x="28" y="139.5" font-size="15.2" fill="#DCC596" font-weight="600">First Class Honours</text>
+<text x="28" y="166.47" font-size="14.25" fill="#B6C5D6">September 2021 – July 2026</text>
 </svg>

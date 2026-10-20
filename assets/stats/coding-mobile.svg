@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="608" viewBox="0 0 360 608" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 266 provisional, algorithm rank #45,059, 4 rated contests; updated 2026-10-20 UTC. LeetCode Dongmyung: 18 problems solved, Easy 0, Medium 17, Hard 1, contest rating unrated, 6 active days in 2026, profile rank #4,815,550; updated 2026-10-20 UTC.</desc>
-<rect x="0.5" y="0.5" width="359" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
+<rect x="0.5" y="0.5" width="359" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="340" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
 <text x="20" y="88" fill="#9AC5EA" font-size="44" font-weight="600" text-anchor="start">266</text>
@@ -11,30 +11,30 @@
 <text x="20" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#45,059</text>
 <text x="186.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">4</text>
 <text x="20" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 266</text>
-<path d="M 20 250 H 340" stroke="#34465E"/>
-<polyline points="20.0,249.73 126.67,236.2 233.33,237.41 340.0,214.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="20.0" cy="249.73" r="3" fill="#9AC5EA"/>
-<circle cx="126.67" cy="236.2" r="3" fill="#9AC5EA"/>
-<circle cx="233.33" cy="237.41" r="3" fill="#9AC5EA"/>
-<circle cx="340.0" cy="214.0" r="3" fill="#9AC5EA"/>
-<text x="20" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
-<text x="340" y="269" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
-<text x="20" y="294" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
-<rect x="0.5" y="328.5" width="359" height="311" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="20" y="360" fill="#DCC596" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
-<text x="340" y="360" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
-<text x="20" y="416" fill="#DCC596" font-size="44" font-weight="600" text-anchor="start">18</text>
-<text x="20" y="440" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Problems solved</text>
-<text x="20" y="474" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Contest rating</text>
-<text x="186.0" y="474" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Active days 2026</text>
-<text x="20" y="499" fill="#E6EEF8" font-size="21" font-weight="600" text-anchor="start">Unrated</text>
-<text x="186.0" y="499" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">6</text>
-<rect x="20" y="525" width="320" height="10" rx="5" fill="#293A50"/>
-<rect x="20.0" y="525" width="302.22222222222223" height="10" fill="#EBC078"/>
-<rect x="322.22222222222223" y="525" width="17.77777777777778" height="10" fill="#E794A5"/>
-<text x="20.0" y="561" fill="#79D4B3" font-size="16" font-weight="400" text-anchor="start">Easy 0</text>
-<text x="180.0" y="561" fill="#EBC078" font-size="16" font-weight="400" text-anchor="middle">Medium 17</text>
-<text x="340.0" y="561" fill="#E794A5" font-size="16" font-weight="400" text-anchor="end">Hard 1</text>
-<text x="20" y="595" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,815,550</text>
-<text x="20" y="622" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
+<path d="M 20 234 H 340" stroke="#34465E"/>
+<polyline points="20.0,233.79 126.67,223.26 233.33,224.21 340.0,206.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="20.0" cy="233.79" r="3" fill="#9AC5EA"/>
+<circle cx="126.67" cy="223.26" r="3" fill="#9AC5EA"/>
+<circle cx="233.33" cy="224.21" r="3" fill="#9AC5EA"/>
+<circle cx="340.0" cy="206.0" r="3" fill="#9AC5EA"/>
+<text x="20" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
+<text x="340" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-17</text>
+<text x="20" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
+<rect x="0.5" y="310.5" width="359" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
+<text x="20" y="342" fill="#DCC596" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
+<text x="340" y="342" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
+<text x="20" y="398" fill="#DCC596" font-size="44" font-weight="600" text-anchor="start">18</text>
+<text x="20" y="422" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Problems solved</text>
+<text x="20" y="456" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Contest rating</text>
+<text x="186.0" y="456" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Active days 2026</text>
+<text x="20" y="481" fill="#E6EEF8" font-size="21" font-weight="600" text-anchor="start">Unrated</text>
+<text x="186.0" y="481" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">6</text>
+<rect x="20" y="507" width="320" height="10" rx="5" fill="#293A50"/>
+<rect x="20.0" y="507" width="302.22222222222223" height="10" fill="#EBC078"/>
+<rect x="322.22222222222223" y="507" width="17.77777777777778" height="10" fill="#E794A5"/>
+<text x="20.0" y="543" fill="#79D4B3" font-size="16" font-weight="400" text-anchor="start">Easy 0</text>
+<text x="180.0" y="543" fill="#EBC078" font-size="16" font-weight="400" text-anchor="middle">Medium 17</text>
+<text x="340.0" y="543" fill="#E794A5" font-size="16" font-weight="400" text-anchor="end">Hard 1</text>
+<text x="20" y="566" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,815,550</text>
+<text x="20" y="590" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-20 12:46 UTC</text>
 </svg>
