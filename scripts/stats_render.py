@@ -108,9 +108,9 @@ def readme_block(records):
 <h3>Coding Practice</h3>
 
 <picture>
-  <source media="(max-width: 480px)" srcset="assets/stats/coding-mobile.svg?v='''+version+'''" />
-  <source media="(max-width: 1100px)" srcset="assets/stats/coding-tablet.svg?v='''+version+'''" />
-  <img src="assets/stats/coding-wide.svg?v='''+version+'''" width="100%" alt="'''+escape(alt_text(records), quote=True)+'''" />
+  <source media="(max-width: 480px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-mobile.svg?v='''+version+'''" />
+  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-tablet.svg?v='''+version+'''" />
+  <img src="https://raw.githubusercontent.com/Dongmyung378/Dongmyung378/main/assets/stats/coding-wide.svg?v='''+version+'''" width="100%" alt="'''+escape(alt_text(records), quote=True)+'''" />
 </picture>
 
 <p><sub>Scheduled hourly. Cards show the last successful refresh (UTC).</sub></p>
