@@ -2,22 +2,22 @@
   "schema_version": 1,
   "profile": {
     "username": "Dongmyung378",
-    "updated_at": "2026-10-20T23:52:30Z",
+    "updated_at": "2026-10-21T03:08:12Z",
     "created_at": "2025-11-19",
-    "period_start": "2025-10-21",
-    "period_end": "2026-10-20",
+    "period_start": "2025-10-22",
+    "period_end": "2026-10-21",
     "stars": 2,
     "public_repositories": 15,
-    "commits": 323,
+    "commits": 325,
     "repositories_committed_to": 15,
     "pull_requests": 0,
     "issues": 0,
-    "total_contributions": 339,
-    "active_days": 69,
+    "total_contributions": 341,
+    "active_days": 70,
     "streaks": {
-      "current": 3,
+      "current": 4,
       "current_start": "2026-10-18",
-      "current_end": "2026-10-20",
+      "current_end": "2026-10-21",
       "longest": 27,
       "longest_start": "2026-09-01",
       "longest_end": "2026-09-27"
@@ -462,7 +462,8 @@
       "2026-10-17": 0,
       "2026-10-18": 1,
       "2026-10-19": 24,
-      "2026-10-20": 25
+      "2026-10-20": 25,
+      "2026-10-21": 2
     }
   }
 }
