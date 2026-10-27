@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="306" viewBox="0 0 600 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">AtCoder coding practice</title>
-<desc id="desc">AtCoder ParkDM: algorithm rating 205 provisional, algorithm rank #49,711, 5 rated contests; updated 2026-10-26 UTC.</desc>
+<desc id="desc">AtCoder ParkDM: algorithm rating 205 provisional, algorithm rank #49,711, 5 rated contests; updated 2026-10-27 UTC.</desc>
 <rect x="0.5" y="0.5" width="599" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="580" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
@@ -20,5 +20,5 @@
 <circle cx="580.0" cy="212.42" r="3" fill="#9AC5EA"/>
 <text x="20" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
 <text x="580" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-24</text>
-<text x="20" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-26 02:59 UTC</text>
+<text x="20" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-10-27 03:32 UTC</text>
 </svg>

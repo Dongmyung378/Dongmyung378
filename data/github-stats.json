@@ -2,22 +2,22 @@
   "schema_version": 1,
   "profile": {
     "username": "Dongmyung378",
-    "updated_at": "2026-10-26T02:59:51Z",
+    "updated_at": "2026-10-27T03:32:12Z",
     "created_at": "2025-11-19",
-    "period_start": "2025-10-27",
-    "period_end": "2026-10-26",
+    "period_start": "2025-10-28",
+    "period_end": "2026-10-27",
     "stars": 2,
     "public_repositories": 15,
-    "commits": 325,
+    "commits": 328,
     "repositories_committed_to": 15,
     "pull_requests": 0,
     "issues": 0,
-    "total_contributions": 341,
-    "active_days": 70,
+    "total_contributions": 344,
+    "active_days": 72,
     "streaks": {
-      "current": 0,
-      "current_start": null,
-      "current_end": null,
+      "current": 2,
+      "current_start": "2026-10-26",
+      "current_end": "2026-10-27",
       "longest": 27,
       "longest_start": "2026-09-01",
       "longest_end": "2026-09-27"
@@ -25,104 +25,104 @@
     "languages": [
       {
         "name": "Python",
-        "bytes": 13285265,
-        "percent": 82.34435306273356,
+        "bytes": 13737403,
+        "percent": 82.82565196231408,
         "color": "#3572A5"
       },
       {
         "name": "Jupyter Notebook",
         "bytes": 1062729,
-        "percent": 6.586976773591326,
+        "percent": 6.407413561665045,
         "color": "#DA5B0B"
       },
       {
         "name": "C++",
         "bytes": 996693,
-        "percent": 6.1776743096321445,
+        "percent": 6.009268821135604,
         "color": "#f34b7d"
       },
       {
         "name": "Java",
         "bytes": 365153,
-        "percent": 2.2632809773772933,
+        "percent": 2.201583173398558,
         "color": "#b07219"
       },
       {
         "name": "HTML",
         "bytes": 144141,
-        "percent": 0.893410661723005,
+        "percent": 0.8690559852906633,
         "color": "#e34c26"
       },
       {
         "name": "PHP",
         "bytes": 121735,
-        "percent": 0.7545344274345953,
+        "percent": 0.7339655640612934,
         "color": "#4F5D95"
       },
       {
         "name": "JavaScript",
         "bytes": 57305,
-        "percent": 0.3551862271667104,
+        "percent": 0.34550373063237705,
         "color": "#f1e05a"
       },
       {
         "name": "PowerShell",
         "bytes": 39765,
-        "percent": 0.2464702961920293,
+        "percent": 0.23975143266026477,
         "color": "#012456"
       },
       {
         "name": "Shell",
         "bytes": 15952,
-        "percent": 0.09887323437332456,
+        "percent": 0.09617791660496777,
         "color": "#89e051"
       },
       {
         "name": "TeX",
         "bytes": 12967,
-        "percent": 0.08037169195830614,
+        "percent": 0.07818073248599657,
         "color": "#3D6117"
       },
       {
         "name": "CSS",
         "bytes": 9694,
-        "percent": 0.06008507610425077,
+        "percent": 0.058447136632933654,
         "color": "#663399"
       },
       {
         "name": "Prolog",
         "bytes": 7293,
-        "percent": 0.04520326594061284,
+        "percent": 0.043971009641426154,
         "color": "#74283c"
       },
       {
         "name": "Batchfile",
         "bytes": 4898,
-        "percent": 0.030358644806954844,
+        "percent": 0.029531057894378897,
         "color": "#C1F12E"
       },
       {
         "name": "OpenEdge ABL",
         "bytes": 4494,
-        "percent": 0.02785458345497245,
+        "percent": 0.027095258100722493,
         "color": "#5ce600"
       },
       {
         "name": "Dockerfile",
         "bytes": 3641,
-        "percent": 0.022567543026158144,
+        "percent": 0.021952344179957853,
         "color": "#384d54"
       },
       {
         "name": "Gnuplot",
         "bytes": 1569,
-        "percent": 0.0097249313397534,
+        "percent": 0.009459826426353714,
         "color": "#f0a9f0"
       },
       {
         "name": "C#",
         "bytes": 496,
-        "percent": 0.0030742931450080855,
+        "percent": 0.0029904868753801417,
         "color": "#7355dd"
       }
     ],
@@ -468,7 +468,8 @@
       "2026-10-23": 0,
       "2026-10-24": 0,
       "2026-10-25": 0,
-      "2026-10-26": 0
+      "2026-10-26": 1,
+      "2026-10-27": 2
     }
   }
 }
