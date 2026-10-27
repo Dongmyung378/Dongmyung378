@@ -26,7 +26,7 @@
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="52" height="52" alt="Python" title="Python" /></a>
 <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="52" height="52" alt="C++" title="C++" /></a>
 <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="52" height="52" alt="Java" title="Java" /></a>
-<img src="assets/tech/sql.svg" width="52" height="52" alt="SQL" title="SQL" />
+<a href="https://www.postgresql.org/docs/current/tutorial-sql.html"><img src="assets/tech/sql.svg" width="52" height="52" alt="SQL" title="SQL" /></a>
 <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="52" height="52" alt="PyTorch" title="PyTorch" /></a>
 <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="52" height="52" alt="TensorFlow" title="TensorFlow" /></a>
 <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="52" height="52" alt="scikit-learn" title="scikit-learn" /></a>
