@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="346" viewBox="0 -6 600 346" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
-<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 333 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 349 contributions on the public calendar, current streak 3 days, longest streak 27 days. Updated 2026-10-29T04:10:56Z UTC.</desc>
+<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 336 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 352 contributions on the public calendar, current streak 4 days, longest streak 27 days. Updated 2026-10-30T04:10:58Z UTC.</desc>
 <rect x=".5" y=".5" width="599" height="333" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="22" y="35" fill="#DCC596" font-size="23" font-weight="600" text-anchor="start">Most used languages</text>
 <text x="22" y="65" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Public, non-fork repositories</text>
 <defs><clipPath id="bar"><rect x="22" y="83" width="556" height="12" rx="6"/></clipPath></defs>
-<rect x="22.000" y="83" width="456.173" height="12" fill="#3572A5" clip-path="url(#bar)"/>
-<rect x="478.173" y="83" width="34.925" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
-<rect x="513.098" y="83" width="32.755" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
-<rect x="545.854" y="83" width="12.000" height="12" fill="#b07219" clip-path="url(#bar)"/>
-<rect x="557.854" y="83" width="8.826" height="12" fill="#4F5D95" clip-path="url(#bar)"/>
-<rect x="566.679" y="83" width="4.737" height="12" fill="#e34c26" clip-path="url(#bar)"/>
+<rect x="22.000" y="83" width="456.186" height="12" fill="#3572A5" clip-path="url(#bar)"/>
+<rect x="478.186" y="83" width="34.921" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
+<rect x="513.107" y="83" width="32.751" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
+<rect x="545.858" y="83" width="11.999" height="12" fill="#b07219" clip-path="url(#bar)"/>
+<rect x="557.857" y="83" width="8.824" height="12" fill="#4F5D95" clip-path="url(#bar)"/>
+<rect x="566.681" y="83" width="4.736" height="12" fill="#e34c26" clip-path="url(#bar)"/>
 <rect x="571.417" y="83" width="2.277" height="12" fill="#f1e05a" clip-path="url(#bar)"/>
-<rect x="573.693" y="83" width="1.314" height="12" fill="#663399" clip-path="url(#bar)"/>
+<rect x="573.694" y="83" width="1.313" height="12" fill="#663399" clip-path="url(#bar)"/>
 <rect x="575.007" y="83" width="2.993" height="12" fill="#8DA2B8" clip-path="url(#bar)"/>
 <circle cx="28" cy="115" r="5" fill="#3572A5"/>
 <text x="42" y="120" fill="#E6EEF8" font-size="15" font-weight="400" text-anchor="start">Python</text>
