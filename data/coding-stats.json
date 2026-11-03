@@ -49,19 +49,19 @@
       ],
       "latest_contest_url": "https://atcoder.jp/contests/abc482",
       "top_percent": 32.74,
-      "updated_at": "2026-11-02T04:09:45Z"
+      "updated_at": "2026-11-03T05:09:38Z"
     },
     "leetcode": {
       "username": "Dongmyung",
       "profile_url": "https://leetcode.com/u/Dongmyung/",
-      "solved": 20,
+      "solved": 24,
       "difficulty": {
-        "Easy": 2,
+        "Easy": 6,
         "Medium": 17,
         "Hard": 1
       },
-      "profile_rank": 4612462,
-      "active_days": 7,
+      "profile_rank": 4403458,
+      "active_days": 9,
       "activity_year": 2026,
       "contest": {
         "rating": null,
@@ -69,7 +69,7 @@
         "attended": 0,
         "top_percent": null
       },
-      "updated_at": "2026-11-02T04:09:45Z"
+      "updated_at": "2026-11-03T05:09:38Z"
     }
   }
 }
