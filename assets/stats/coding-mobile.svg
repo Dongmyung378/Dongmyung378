@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="608" viewBox="0 0 360 608" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Coding practice</title>
-<desc id="desc">AtCoder ParkDM: algorithm rating 330 provisional, algorithm rank #41,162, 6 rated contests; updated 2026-11-07 UTC. LeetCode Dongmyung: 26 problems solved, Easy 8, Medium 17, Hard 1, contest rating unrated, 10 active days in 2026, profile rank #4,065,765; updated 2026-11-09 UTC.</desc>
+<desc id="desc">AtCoder ParkDM: algorithm rating 330 provisional, algorithm rank #41,162, 6 rated contests; updated 2026-11-07 UTC. LeetCode Dongmyung: 26 problems solved, Easy 8, Medium 17, Hard 1, contest rating unrated, 10 active days in 2026, profile rank #4,066,846; updated 2026-11-10 UTC.</desc>
 <rect x="0.5" y="0.5" width="359" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="340" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
@@ -38,6 +38,6 @@
 <text x="20.0" y="543" fill="#79D4B3" font-size="16" font-weight="400" text-anchor="start">Easy 8</text>
 <text x="180.0" y="543" fill="#EBC078" font-size="16" font-weight="400" text-anchor="middle">Medium 17</text>
 <text x="340.0" y="543" fill="#E794A5" font-size="16" font-weight="400" text-anchor="end">Hard 1</text>
-<text x="20" y="566" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,065,765</text>
-<text x="20" y="590" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-09 04:26 UTC</text>
+<text x="20" y="566" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Profile rank: #4,066,846</text>
+<text x="20" y="590" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-10 05:48 UTC</text>
 </svg>

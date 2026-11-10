@@ -2,10 +2,10 @@
   "schema_version": 1,
   "profile": {
     "username": "Dongmyung378",
-    "updated_at": "2026-11-09T04:26:32Z",
+    "updated_at": "2026-11-10T05:48:56Z",
     "created_at": "2025-11-19",
-    "period_start": "2025-11-10",
-    "period_end": "2026-11-09",
+    "period_start": "2025-11-11",
+    "period_end": "2026-11-10",
     "stars": 2,
     "public_repositories": 15,
     "commits": 336,
@@ -482,7 +482,8 @@
       "2026-11-06": 0,
       "2026-11-07": 0,
       "2026-11-08": 0,
-      "2026-11-09": 0
+      "2026-11-09": 0,
+      "2026-11-10": 0
     }
   }
 }
