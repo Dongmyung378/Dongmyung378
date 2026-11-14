@@ -1,25 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="306" viewBox="8 0 354 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">AtCoder coding practice</title>
-<desc id="desc">AtCoder ParkDM: algorithm rating 330 provisional, algorithm rank #41,162, 6 rated contests; updated 2026-11-07 UTC.</desc>
+<desc id="desc">AtCoder ParkDM: algorithm rating 543 provisional, algorithm rank #31,756, 7 rated contests; updated 2026-11-14 UTC.</desc>
 <rect x="8.5" y="0.5" width="353" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="28" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="342" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
-<text x="28" y="88" fill="#9AC5EA" font-size="44" font-weight="600" text-anchor="start">330</text>
+<text x="28" y="88" fill="#9AC5EA" font-size="44" font-weight="600" text-anchor="start">543</text>
 <text x="28" y="112" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rating (provisional)</text>
 <text x="28" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rank</text>
 <text x="191.0" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rated contests</text>
-<text x="28" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#41,162</text>
-<text x="191.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">6</text>
-<text x="28" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 330</text>
+<text x="28" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#31,756</text>
+<text x="191.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">7</text>
+<text x="28" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 543</text>
 <path d="M 28 234 H 342" stroke="#34465E"/>
-<polyline points="28.0,233.83 90.8,225.35 153.6,226.11 216.4,211.43 279.2,216.61 342.0,206.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="28.0" cy="233.83" r="3" fill="#9AC5EA"/>
-<circle cx="90.8" cy="225.35" r="3" fill="#9AC5EA"/>
-<circle cx="153.6" cy="226.11" r="3" fill="#9AC5EA"/>
-<circle cx="216.4" cy="211.43" r="3" fill="#9AC5EA"/>
-<circle cx="279.2" cy="216.61" r="3" fill="#9AC5EA"/>
+<polyline points="28.0,233.9 80.33,228.74 132.67,229.2 185.0,220.28 237.33,223.43 289.67,216.98 342.0,206.0" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="28.0" cy="233.9" r="3" fill="#9AC5EA"/>
+<circle cx="80.33" cy="228.74" r="3" fill="#9AC5EA"/>
+<circle cx="132.67" cy="229.2" r="3" fill="#9AC5EA"/>
+<circle cx="185.0" cy="220.28" r="3" fill="#9AC5EA"/>
+<circle cx="237.33" cy="223.43" r="3" fill="#9AC5EA"/>
+<circle cx="289.67" cy="216.98" r="3" fill="#9AC5EA"/>
 <circle cx="342.0" cy="206.0" r="3" fill="#9AC5EA"/>
 <text x="28" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
-<text x="342" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">10-31</text>
-<text x="28" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-07 04:27 UTC</text>
+<text x="342" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">11-07</text>
+<text x="28" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-14 12:02 UTC</text>
 </svg>

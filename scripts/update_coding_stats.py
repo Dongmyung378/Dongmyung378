@@ -106,7 +106,9 @@ def main():
     for name, error in errors.items():
         print(f"WARNING: {name}: {error}; retained the last successful values and date", file=sys.stderr)
     print(json.dumps({"updated_at": {k: v["updated_at"] for k,v in records.items()}, "retained_sources": list(errors)}))
+    # Publish successful independent sources, but make a stale source visible to CI.
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

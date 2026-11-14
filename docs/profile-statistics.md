@@ -37,6 +37,6 @@ python scripts/update_github_stats.py --render-only
 python scripts/update_coding_stats.py --render-only
 ```
 
-A failed GitHub fetch preserves its existing snapshot, images, and date. A coding-platform failure retains that platform's last successful values. If just one coding platform fails, the other platform updates and the script records a warning. If both coding platforms fail, or the GitHub fetch fails, the workflow reports a failure while still publishing any successful independent refresh. Missing values are not silently published as zeros.
+A failed GitHub fetch preserves its existing snapshot, images, and date. A coding-platform failure retains that platform's last successful values. If just one coding platform fails, the other platform updates, the script records a warning and returns a failure status. The workflow publishes any successful independent refresh before reporting that failure. A total coding-platform failure leaves its existing files unchanged. Missing values are not silently published as zeros.
 
 Sources: [GitHub GraphQL user and contribution fields](https://docs.github.com/en/graphql/reference/users), [GitHub contribution-counting rules](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/troubleshooting-missing-contributions), [GitHub Actions token](https://docs.github.com/en/actions/concepts/security/github_token).

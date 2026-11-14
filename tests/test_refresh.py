@@ -1,10 +1,16 @@
 import copy
+import contextlib
+import io
+import json
 import sys
+import tempfile
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from update_coding_stats import refresh
+import update_coding_stats
 from stats_render import profile_rank, render_cards
 
 
@@ -37,6 +43,40 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(records["atcoder"]["rating"], 0)
         self.assertEqual(records["leetcode"]["solved"], 0)
         self.assertEqual(errors, {})
+
+    def test_partial_refresh_is_published_but_returns_failure_status(self):
+        old = {"atcoder": {"rating": 330, "updated_at": "2026-11-07T04:27:25Z"},
+               "leetcode": {"solved": 25, "updated_at": "2026-11-07T04:27:25Z"}}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data").mkdir()
+            (root / "data" / "coding-stats.json").write_text(
+                json.dumps({"profiles": old}), encoding="utf-8"
+            )
+            with patch.object(update_coding_stats, "ROOT", root), \
+                 patch.object(update_coding_stats, "fetch_atcoder", side_effect=ValueError("changed profile")), \
+                 patch.object(update_coding_stats, "fetch_leetcode", return_value={"solved": 26}), \
+                 patch.object(update_coding_stats, "write_outputs") as publish, \
+                 patch.object(sys, "argv", ["update_coding_stats.py"]), \
+                 contextlib.redirect_stdout(io.StringIO()), \
+                 contextlib.redirect_stderr(io.StringIO()) as errors:
+                self.assertEqual(update_coding_stats.main(), 1)
+            published = publish.call_args.args[1]
+            self.assertEqual(published["atcoder"], old["atcoder"])
+            self.assertEqual(published["leetcode"]["solved"], 26)
+            self.assertNotEqual(published["leetcode"]["updated_at"], old["leetcode"]["updated_at"])
+            self.assertIn("retained the last successful values and date", errors.getvalue())
+
+    def test_complete_refresh_returns_success_status(self):
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(update_coding_stats, "ROOT", Path(directory)), \
+                 patch.object(update_coding_stats, "fetch_atcoder", return_value={"rating": 543}), \
+                 patch.object(update_coding_stats, "fetch_leetcode", return_value={"solved": 26}), \
+                 patch.object(update_coding_stats, "write_outputs") as publish, \
+                 patch.object(sys, "argv", ["update_coding_stats.py"]), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(update_coding_stats.main(), 0)
+            self.assertEqual(publish.call_args.args[1]["atcoder"]["rating"], 543)
 
     def test_large_profile_rank_is_a_lower_bound_not_a_contest_rank(self):
         self.assertEqual(profile_rank(5_000_001), "5M+")

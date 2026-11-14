@@ -108,6 +108,35 @@ class AtCoderStatisticsTests(unittest.TestCase):
             result["history"][1]["contest"], "AtCoder Beginner Contest 478"
         )
 
+    def test_highest_rating_accepts_official_promotion_hint(self):
+        # AtCoder shows this suffix after ParkDM passed 400: 543 ― 8 Kyu (+57 to promote).
+        profile = PROFILE.replace(">266<", ">543<").replace(
+            "9 Kyu</span>", "8 Kyu (+57 to promote)</span>"
+        )
+        history = copy.deepcopy(HISTORY)
+        history[-1]["NewRating"] = 543
+        result = parse_atcoder(profile, history)
+        self.assertEqual(result["rating"], 543)
+        self.assertEqual(result["highest_rating"], 543)
+        self.assertEqual(result["rated_contests"], 4)
+        self.assertTrue(result["provisional"])
+
+    def test_promotion_hint_does_not_hide_malformed_or_conflicting_ratings(self):
+        for suffix in [
+            "8 Kyu (+57 to promote) trailing text",
+            "8 Kyu (-57 to promote)",
+            "8 Kyu (+unknown to promote)",
+        ]:
+            with self.subTest(suffix=suffix), self.assertRaises(ValueError):
+                parse_atcoder(PROFILE.replace("9 Kyu</span>", suffix + "</span>"), HISTORY)
+        with self.assertRaisesRegex(ValueError, "ratings differ from history"):
+            parse_atcoder(
+                PROFILE.replace(">266<", ">543<").replace(
+                    "9 Kyu</span>", "8 Kyu (+57 to promote)</span>"
+                ),
+                HISTORY,
+            )
+
     def test_explicit_unrated_state_has_none_instead_of_zero(self):
         self.assertEqual(
             parse_atcoder(UNRATED, []),

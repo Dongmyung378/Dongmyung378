@@ -217,7 +217,8 @@ def parse_atcoder(profile_html: str, history: list) -> dict:
         r"(" + _NUMBER + r")(?:\s*\(Provisional\s*\))?", fields["Rating"]
     )
     peak = re.fullmatch(
-        r"(" + _NUMBER + r")(?:\s*[―—−-]\s*[0-9]+\s+(?:Kyu|Dan))?(?:\s+New!!)?",
+        r"(" + _NUMBER + r")(?:\s*[―—−-]\s*[0-9]+\s+(?:Kyu|Dan)"
+        r"(?:\s*\(\+" + _NUMBER + r"\s+to\s+promote\))?)?(?:\s+New!!)?",
         fields["Highest Rating"],
     )
     rank = re.fullmatch(
