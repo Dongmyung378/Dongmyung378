@@ -4,10 +4,10 @@
     "atcoder": {
       "username": "ParkDM",
       "profile_url": "https://atcoder.jp/users/ParkDM",
-      "rating": 543,
-      "highest_rating": 543,
-      "rank": 31756,
-      "rated_contests": 7,
+      "rating": 691,
+      "highest_rating": 691,
+      "rank": 25956,
+      "rated_contests": 8,
       "provisional": true,
       "history": [
         {
@@ -51,11 +51,17 @@
           "rating": 543,
           "contest": "AtCoder Beginner Contest 483",
           "place": 1893
+        },
+        {
+          "date": "2026-11-14",
+          "rating": 691,
+          "contest": "AtCoder Beginner Contest 484",
+          "place": 2009
         }
       ],
-      "latest_contest_url": "https://atcoder.jp/contests/abc483",
-      "top_percent": 25.29,
-      "updated_at": "2026-11-14T12:03:37Z"
+      "latest_contest_url": "https://atcoder.jp/contests/abc484",
+      "top_percent": 20.67,
+      "updated_at": "2026-11-15T04:38:02Z"
     },
     "leetcode": {
       "username": "Dongmyung",
@@ -75,7 +81,7 @@
         "attended": 0,
         "top_percent": null
       },
-      "updated_at": "2026-11-14T12:03:37Z"
+      "updated_at": "2026-11-15T04:38:02Z"
     }
   }
 }
