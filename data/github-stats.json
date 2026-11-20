@@ -2,22 +2,22 @@
   "schema_version": 1,
   "profile": {
     "username": "Dongmyung378",
-    "updated_at": "2026-11-19T05:44:45Z",
+    "updated_at": "2026-11-20T05:33:24Z",
     "created_at": "2025-11-19",
-    "period_start": "2025-11-20",
-    "period_end": "2026-11-19",
+    "period_start": "2025-11-21",
+    "period_end": "2026-11-20",
     "stars": 2,
     "public_repositories": 15,
-    "commits": 337,
+    "commits": 344,
     "repositories_committed_to": 15,
     "pull_requests": 0,
     "issues": 0,
-    "total_contributions": 353,
-    "active_days": 74,
+    "total_contributions": 360,
+    "active_days": 76,
     "streaks": {
-      "current": 0,
-      "current_start": null,
-      "current_end": null,
+      "current": 2,
+      "current_start": "2026-11-19",
+      "current_end": "2026-11-20",
       "longest": 27,
       "longest_start": "2026-09-01",
       "longest_end": "2026-09-27"
@@ -25,104 +25,104 @@
     "languages": [
       {
         "name": "Python",
-        "bytes": 13886865,
-        "percent": 82.0520660783464,
+        "bytes": 13400029,
+        "percent": 83.44790685390427,
         "color": "#3572A5"
       },
       {
         "name": "Jupyter Notebook",
         "bytes": 1062729,
-        "percent": 6.279250941906254,
+        "percent": 6.618083483471777,
         "color": "#DA5B0B"
       },
       {
         "name": "C++",
-        "bytes": 996693,
-        "percent": 5.889069987778041,
+        "bytes": 605481,
+        "percent": 3.770597965855806,
         "color": "#f34b7d"
       },
       {
         "name": "Java",
-        "bytes": 365153,
-        "percent": 2.1575465797864686,
+        "bytes": 362378,
+        "percent": 2.256688070593289,
         "color": "#b07219"
       },
       {
         "name": "PHP",
         "bytes": 268548,
-        "percent": 1.5867453338970148,
+        "percent": 1.6723671635189956,
         "color": "#4F5D95"
       },
       {
         "name": "HTML",
-        "bytes": 144141,
-        "percent": 0.8516729194529454,
+        "bytes": 160404,
+        "percent": 0.9989066479627514,
         "color": "#e34c26"
       },
       {
         "name": "JavaScript",
         "bytes": 69283,
-        "percent": 0.40936621001976137,
+        "percent": 0.4314558819655576,
         "color": "#f1e05a"
       },
       {
         "name": "CSS",
         "bytes": 39968,
-        "percent": 0.23615531489788003,
+        "percent": 0.24889841217036512,
         "color": "#663399"
       },
       {
         "name": "PowerShell",
         "bytes": 39765,
-        "percent": 0.2349558671165482,
+        "percent": 0.24763424139197782,
         "color": "#012456"
       },
       {
         "name": "Shell",
-        "bytes": 15952,
-        "percent": 0.09425414289559103,
+        "bytes": 15840,
+        "percent": 0.0986426853677588,
         "color": "#89e051"
       },
       {
         "name": "TeX",
         "bytes": 12967,
-        "percent": 0.07661694276122924,
+        "percent": 0.08075124376033639,
         "color": "#3D6117"
       },
       {
         "name": "Prolog",
         "bytes": 7293,
-        "percent": 0.043091490981541206,
+        "percent": 0.04541673638807228,
         "color": "#74283c"
       },
       {
         "name": "Batchfile",
-        "bytes": 4898,
-        "percent": 0.028940370605729994,
+        "bytes": 4648,
+        "percent": 0.02894515161548882,
         "color": "#C1F12E"
       },
       {
         "name": "OpenEdge ABL",
         "bytes": 4494,
-        "percent": 0.02655329226258689,
+        "percent": 0.02798612550774672,
         "color": "#5ce600"
       },
       {
         "name": "Dockerfile",
-        "bytes": 3641,
-        "percent": 0.0215132481370892,
+        "bytes": 2065,
+        "percent": 0.012859668262905424,
         "color": "#384d54"
       },
       {
         "name": "Gnuplot",
         "bytes": 1569,
-        "percent": 0.009270608713840417,
+        "percent": 0.009770856902904896,
         "color": "#f0a9f0"
       },
       {
         "name": "C#",
         "bytes": 496,
-        "percent": 0.0029306704410865816,
+        "percent": 0.003088811360000528,
         "color": "#7355dd"
       }
     ],
@@ -492,7 +492,8 @@
       "2026-11-16": 0,
       "2026-11-17": 0,
       "2026-11-18": 0,
-      "2026-11-19": 0
+      "2026-11-19": 4,
+      "2026-11-20": 3
     }
   }
 }
