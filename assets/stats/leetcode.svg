@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="306" viewBox="8 0 354 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">LeetCode coding practice</title>
 <desc id="desc">LeetCode Dongmyung: 26 problems solved, Easy 8, Medium 17, Hard 1, contest rating unrated, 10 active days in 2026, profile rank #4,085,181; updated 2026-11-22 UTC.</desc>
-<defs><clipPath id="panel-clip-leetcode"><rect x="8.5" y="0.5" width="353" height="293" rx="14"/></clipPath></defs>
-<g clip-path="url(#panel-clip-leetcode)"><rect x="8.5" y="0.5" width="353" height="293" fill="#101B2B"/><rect x="8.5" y="0.5" width="353" height="3.2" fill="#FF9EA8"/></g>
-<rect x="8.5" y="0.5" width="353" height="293" rx="14" fill="none" stroke="#34465E"/>
+<rect x="8.5" y="0.5" width="353" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="28" y="32" fill="#FF9EA8" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
 <text x="342" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
 <text x="28" y="88" fill="#FF9EA8" font-size="44" font-weight="600" text-anchor="start">26</text>

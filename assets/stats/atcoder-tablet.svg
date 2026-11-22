@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="306" viewBox="0 0 600 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">AtCoder coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 587 provisional, algorithm rank #29,939, 9 rated contests; updated 2026-11-22 UTC.</desc>
-<defs><clipPath id="panel-clip-atcoder"><rect x="0.5" y="0.5" width="599" height="293" rx="14"/></clipPath></defs>
-<g clip-path="url(#panel-clip-atcoder)"><rect x="0.5" y="0.5" width="599" height="293" fill="#101B2B"/><rect x="0.5" y="0.5" width="599" height="3.2" fill="#9EC5FF"/></g>
-<rect x="0.5" y="0.5" width="599" height="293" rx="14" fill="none" stroke="#34465E"/>
+<rect x="0.5" y="0.5" width="599" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#9EC5FF" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="580" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
 <text x="20" y="88" fill="#9EC5FF" font-size="44" font-weight="600" text-anchor="start">587</text>

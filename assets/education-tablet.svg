@@ -1,13 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="213.9" viewBox="0 0 600 213.9" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 ~ July 2026</title>
-<defs>
-  <clipPath id="edu-clip"><rect x="0.5" y="0.465" width="599" height="198.09" rx="14"/></clipPath>
-</defs>
-<g clip-path="url(#edu-clip)">
-  <rect x="0.5" y="0.465" width="599" height="198.09" fill="#101B2B"/>
-  <rect x="0.5" y="0.465" width="599" height="3.2" fill="#9EC5FF"/>
-</g>
-<rect x="0.5" y="0.465" width="599" height="198.09" rx="14" fill="none" stroke="#34465E"/>
+<rect x="0.5" y="0.465" width="599" height="198.09" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="24" y="31.62" font-size="17.1" fill="#9EC5FF" font-weight="600">EDUCATION</text>
 <text x="24" y="71.61" font-size="26.6" fill="#EEF4FC" font-weight="600">University of Manchester</text>
 <text x="24" y="100.44" font-size="21.85" fill="#B6C5D6">BSc Artificial Intelligence</text>

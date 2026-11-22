@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="346" viewBox="0 -6 600 346" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 351 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 367 contributions on the public calendar, current streak 1 days, longest streak 27 days. Updated 2026-11-22T11:20:35Z UTC.</desc>
-<defs><clipPath id="card-clip"><rect x=".5" y=".5" width="599" height="333" rx="14"/></clipPath></defs>
-<g clip-path="url(#card-clip)"><rect x=".5" y=".5" width="599" height="333" fill="#101B2B"/><rect x=".5" y=".5" width="599" height="3.2" fill="#FFE599"/></g>
-<rect x=".5" y=".5" width="599" height="333" rx="14" fill="none" stroke="#34465E"/>
+<rect x=".5" y=".5" width="599" height="333" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="22" y="35" fill="#FFE599" font-size="23" font-weight="600" text-anchor="start">Most used languages</text>
 <text x="22" y="65" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Public, non-fork repositories</text>
 <defs><clipPath id="bar"><rect x="22" y="83" width="556" height="12" rx="6"/></clipPath></defs>

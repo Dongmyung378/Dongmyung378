@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="608" viewBox="0 0 360 608" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">Coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 587 provisional, algorithm rank #29,939, 9 rated contests; updated 2026-11-22 UTC. LeetCode Dongmyung: 26 problems solved, Easy 8, Medium 17, Hard 1, contest rating unrated, 10 active days in 2026, profile rank #4,085,181; updated 2026-11-22 UTC.</desc>
-<defs><clipPath id="panel-clip-atcoder"><rect x="0.5" y="0.5" width="359" height="293" rx="14"/></clipPath></defs>
-<g clip-path="url(#panel-clip-atcoder)"><rect x="0.5" y="0.5" width="359" height="293" fill="#101B2B"/><rect x="0.5" y="0.5" width="359" height="3.2" fill="#9EC5FF"/></g>
-<rect x="0.5" y="0.5" width="359" height="293" rx="14" fill="none" stroke="#34465E"/>
+<rect x="0.5" y="0.5" width="359" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="32" fill="#9EC5FF" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="340" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
 <text x="20" y="88" fill="#9EC5FF" font-size="44" font-weight="600" text-anchor="start">587</text>
@@ -27,9 +25,7 @@
 <text x="20" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
 <text x="340" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">11-21</text>
 <text x="20" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-22 11:20 UTC</text>
-<defs><clipPath id="panel-clip-leetcode"><rect x="0.5" y="310.5" width="359" height="293" rx="14"/></clipPath></defs>
-<g clip-path="url(#panel-clip-leetcode)"><rect x="0.5" y="310.5" width="359" height="293" fill="#101B2B"/><rect x="0.5" y="310.5" width="359" height="3.2" fill="#FF9EA8"/></g>
-<rect x="0.5" y="310.5" width="359" height="293" rx="14" fill="none" stroke="#34465E"/>
+<rect x="0.5" y="310.5" width="359" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="20" y="342" fill="#FF9EA8" font-size="24" font-weight="600" text-anchor="start">LeetCode</text>
 <text x="340" y="342" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">Dongmyung</text>
 <text x="20" y="398" fill="#FF9EA8" font-size="44" font-weight="600" text-anchor="start">26</text>

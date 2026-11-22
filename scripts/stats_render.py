@@ -23,13 +23,7 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
     center = x + width / 2
     heading, body, small = (17, 13, 13) if compact else (24, 18, 16) if mobile else (20, 16, 14)
     accent = "#9EC5FF" if platform == "AtCoder" else "#FF9EA8"
-    clip_id = f"panel-clip-{platform.lower()}"
-    lines = [
-        f'<defs><clipPath id="{clip_id}"><rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14"/></clipPath></defs>',
-        f'<g clip-path="url(#{clip_id})"><rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" fill="#101B2B"/>'
-        f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="3.2" fill="{accent}"/></g>',
-        f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14" fill="none" stroke="#34465E"/>',
-    ]
+    lines = [f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14" fill="#101B2B" stroke="#34465E"/>']
     lines += [text(left, y+32, platform, heading, accent, 600), text(right, y+32, record["username"], small, MUTED, anchor="end")]
     if platform == "AtCoder":
         value = "Unrated" if record["rating"] is None else f'{record["rating"]:,}'
@@ -123,7 +117,7 @@ def alt_text(records, platform=None):
 
 
 def readme_block(records):
-    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-pastel1"
+    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-pastel2"
     return '''<!-- coding-stats:start -->
 <h2>Coding Practice</h2>
 

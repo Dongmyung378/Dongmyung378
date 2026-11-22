@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="354" height="440" viewBox="0 0 354 440" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">GitHub activity</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 351 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 367 contributions on the public calendar, current streak 1 days, longest streak 27 days. Updated 2026-11-22T11:20:35Z UTC.</desc>
-<defs><clipPath id="card-clip"><rect x=".5" y=".5" width="353" height="439" rx="14"/></clipPath></defs>
-<g clip-path="url(#card-clip)"><rect x=".5" y=".5" width="353" height="439" fill="#101B2B"/><rect x=".5" y=".5" width="353" height="3.2" fill="#9EC5FF"/></g>
-<rect x=".5" y=".5" width="353" height="439" rx="14" fill="none" stroke="#34465E"/>
+<rect x=".5" y=".5" width="353" height="439" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="22" y="35" fill="#9EC5FF" font-size="24" font-weight="600" text-anchor="start">GitHub activity</text>
 <circle cx="177" cy="122" r="61" fill="none" stroke="#34465E" stroke-width="8"/>
 <circle cx="177" cy="122" r="61" fill="none" stroke="#9EC5FF" stroke-width="8" stroke-dasharray="80.86 383.27" stroke-linecap="round" transform="rotate(-90 177 122)"/>
