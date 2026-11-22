@@ -1,18 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200" role="img" aria-labelledby="title" font-family="Arial, Helvetica, sans-serif"><title id="title">Education and interests</title>
-<rect x="0.5" y=".5" width="239" height="199" rx="12" fill="#101B2B" stroke="#34465E"/>
-<rect x="260.5" y=".5" width="239" height="199" rx="12" fill="#101B2B" stroke="#34465E"/>
-<text x="16" y="27" font-size="13" fill="#9AC5EA" font-weight="600" text-anchor="start">EDUCATION</text>
-<text x="16" y="65" font-size="17" fill="#E6EEF8" font-weight="600" text-anchor="start">University of Manchester</text>
+<defs>
+  <clipPath id="ov-edu"><rect x="0.5" y=".5" width="239" height="199" rx="12"/></clipPath>
+  <clipPath id="ov-int"><rect x="260.5" y=".5" width="239" height="199" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#ov-edu)">
+  <rect x="0.5" y=".5" width="239" height="199" fill="#101B2B"/>
+  <rect x="0.5" y=".5" width="239" height="3" fill="#9EC5FF"/>
+</g>
+<rect x="0.5" y=".5" width="239" height="199" rx="12" fill="none" stroke="#34465E"/>
+<g clip-path="url(#ov-int)">
+  <rect x="260.5" y=".5" width="239" height="199" fill="#101B2B"/>
+  <rect x="260.5" y=".5" width="239" height="3" fill="#FF9EA8"/>
+</g>
+<rect x="260.5" y=".5" width="239" height="199" rx="12" fill="none" stroke="#34465E"/>
+<text x="16" y="27" font-size="13" fill="#9EC5FF" font-weight="600" text-anchor="start">EDUCATION</text>
+<text x="16" y="65" font-size="17" fill="#EEF4FC" font-weight="600" text-anchor="start">University of Manchester</text>
 <text x="16" y="92" font-size="14" fill="#B6C5D6" font-weight="400" text-anchor="start">BSc Artificial Intelligence</text>
-<text x="16" y="139" font-size="14" fill="#DCC596" font-weight="600" text-anchor="start">First Class Honours</text>
+<text x="16" y="139" font-size="14" fill="#FFE599" font-weight="600" text-anchor="start">First Class Honours</text>
 <text x="16" y="166" font-size="14" fill="#B6C5D6" font-weight="400" text-anchor="start">Sep 2021 ~ Jul 2026</text>
-<text x="276" y="27" font-size="13" fill="#91CBB9" font-weight="600" text-anchor="start">INTERESTS</text>
-<rect x="276" y="48" width="208" height="27" rx="6" fill="#223247"/>
-<text x="380" y="66" font-size="12.5" fill="#E6EEF8" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
-<rect x="276" y="82" width="208" height="27" rx="6" fill="#223247"/>
-<text x="380" y="100" font-size="12.5" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
-<rect x="276" y="116" width="208" height="27" rx="6" fill="#223247"/>
-<text x="380" y="134" font-size="12.5" fill="#E6EEF8" font-weight="600" text-anchor="middle">Autonomous Driving</text>
-<rect x="276" y="150" width="208" height="27" rx="6" fill="#223247"/>
-<text x="380" y="168" font-size="12.5" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
+<text x="276" y="27" font-size="13" fill="#FF9EA8" font-weight="600" text-anchor="start">INTERESTS</text>
+<rect x="276" y="48" width="208" height="27" rx="6" fill="#16263D" stroke="#9EC5FF" stroke-opacity="0.62"/>
+<text x="380" y="66" font-size="12.5" fill="#DCEBFF" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
+<rect x="276" y="82" width="208" height="27" rx="6" fill="#2B1B24" stroke="#FF9EA8" stroke-opacity="0.62"/>
+<text x="380" y="100" font-size="12.5" fill="#FFE4E8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+<rect x="276" y="116" width="208" height="27" rx="6" fill="#2A2518" stroke="#FFE599" stroke-opacity="0.62"/>
+<text x="380" y="134" font-size="12.5" fill="#FFF3CC" font-weight="600" text-anchor="middle">Autonomous Driving</text>
+<rect x="276" y="150" width="208" height="27" rx="6" fill="#152A22" stroke="#9CE5B8" stroke-opacity="0.62"/>
+<text x="380" y="168" font-size="12.5" fill="#DFF8E9" font-weight="600" text-anchor="middle">Robotics</text>
 </svg>

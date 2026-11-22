@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="306" viewBox="0 0 600 306" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
 <title id="title">AtCoder coding practice</title>
 <desc id="desc">AtCoder ParkDM: algorithm rating 587 provisional, algorithm rank #29,939, 9 rated contests; updated 2026-11-22 UTC.</desc>
-<rect x="0.5" y="0.5" width="599" height="293" rx="14" fill="#101B2B" stroke="#34465E"/>
-<text x="20" y="32" fill="#9AC5EA" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
+<defs><clipPath id="panel-clip-atcoder"><rect x="0.5" y="0.5" width="599" height="293" rx="14"/></clipPath></defs>
+<g clip-path="url(#panel-clip-atcoder)"><rect x="0.5" y="0.5" width="599" height="293" fill="#101B2B"/><rect x="0.5" y="0.5" width="599" height="3.2" fill="#9EC5FF"/></g>
+<rect x="0.5" y="0.5" width="599" height="293" rx="14" fill="none" stroke="#34465E"/>
+<text x="20" y="32" fill="#9EC5FF" font-size="24" font-weight="600" text-anchor="start">AtCoder</text>
 <text x="580" y="32" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">ParkDM</text>
-<text x="20" y="88" fill="#9AC5EA" font-size="44" font-weight="600" text-anchor="start">587</text>
+<text x="20" y="88" fill="#9EC5FF" font-size="44" font-weight="600" text-anchor="start">587</text>
 <text x="20" y="112" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rating (provisional)</text>
 <text x="20" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Algorithm rank</text>
 <text x="306.0" y="146" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rated contests</text>
-<text x="20" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">#29,939</text>
-<text x="306.0" y="171" fill="#E6EEF8" font-size="22" font-weight="600" text-anchor="start">9</text>
+<text x="20" y="171" fill="#EEF4FC" font-size="22" font-weight="600" text-anchor="start">#29,939</text>
+<text x="306.0" y="171" fill="#EEF4FC" font-size="22" font-weight="600" text-anchor="start">9</text>
 <text x="20" y="200" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">Rating history / Peak 691</text>
 <path d="M 20 234 H 580" stroke="#34465E"/>
-<polyline points="20.0,233.92 90.0,229.87 160.0,230.23 230.0,223.22 300.0,225.69 370.0,220.63 440.0,212.0 510.0,206.0 580.0,210.21" fill="none" stroke="#9AC5EA" stroke-width="2.5" stroke-linejoin="round"/>
-<circle cx="20.0" cy="233.92" r="3" fill="#9AC5EA"/>
-<circle cx="90.0" cy="229.87" r="3" fill="#9AC5EA"/>
-<circle cx="160.0" cy="230.23" r="3" fill="#9AC5EA"/>
-<circle cx="230.0" cy="223.22" r="3" fill="#9AC5EA"/>
-<circle cx="300.0" cy="225.69" r="3" fill="#9AC5EA"/>
-<circle cx="370.0" cy="220.63" r="3" fill="#9AC5EA"/>
-<circle cx="440.0" cy="212.0" r="3" fill="#9AC5EA"/>
-<circle cx="510.0" cy="206.0" r="3" fill="#9AC5EA"/>
-<circle cx="580.0" cy="210.21" r="3" fill="#9AC5EA"/>
+<polyline points="20.0,233.92 90.0,229.87 160.0,230.23 230.0,223.22 300.0,225.69 370.0,220.63 440.0,212.0 510.0,206.0 580.0,210.21" fill="none" stroke="#9EC5FF" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="20.0" cy="233.92" r="3" fill="#9EC5FF"/>
+<circle cx="90.0" cy="229.87" r="3" fill="#9EC5FF"/>
+<circle cx="160.0" cy="230.23" r="3" fill="#9EC5FF"/>
+<circle cx="230.0" cy="223.22" r="3" fill="#9EC5FF"/>
+<circle cx="300.0" cy="225.69" r="3" fill="#9EC5FF"/>
+<circle cx="370.0" cy="220.63" r="3" fill="#9EC5FF"/>
+<circle cx="440.0" cy="212.0" r="3" fill="#9EC5FF"/>
+<circle cx="510.0" cy="206.0" r="3" fill="#9EC5FF"/>
+<circle cx="580.0" cy="210.21" r="3" fill="#9EC5FF"/>
 <text x="20" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="start">09-26</text>
 <text x="580" y="256" fill="#B6C5D6" font-size="16" font-weight="400" text-anchor="end">11-21</text>
 <text x="20" y="280" fill="#A6B9D0" font-size="16" font-weight="400" text-anchor="start">2026-11-22 04:52 UTC</text>

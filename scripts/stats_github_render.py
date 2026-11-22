@@ -5,20 +5,26 @@ from stats_render import text
 BG = "#101B2B"
 LINE = "#34465E"
 MUTED = "#B6C5D6"
-PRIMARY = "#E6EEF8"
-ACTIVITY = "#9AC5EA"
-ACTIVE_DAYS = "#91CBB9"
-STREAK = "#91CBB9"
-LANGUAGES = "#DCC596"
+PRIMARY = "#EEF4FC"
+ACTIVITY = "#9EC5FF"
+ACTIVE_DAYS = "#9EC5FF"
+STREAK = "#FF9EA8"
+LANGUAGES = "#FFE599"
 
 
-def svg(width, height, title, description, content, vertical_gap=0):
+def svg(width, height, title, description, content, vertical_gap=0, accent=None):
     canvas_height = height + 2*vertical_gap
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{canvas_height}" viewBox="0 {-vertical_gap} {width} {canvas_height}" '
-            'role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
-            f'<title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>\n'
-            f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="14" fill="{BG}" stroke="{LINE}"/>\n'
-            + "\n".join(content)+"\n</svg>\n")
+    header = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{canvas_height}" viewBox="0 {-vertical_gap} {width} {canvas_height}" '
+              'role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">\n'
+              f'<title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>\n')
+    if accent:
+        frame = (f'<defs><clipPath id="card-clip"><rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="14"/></clipPath></defs>\n'
+                 f'<g clip-path="url(#card-clip)"><rect x=".5" y=".5" width="{width-1}" height="{height-1}" fill="{BG}"/>'
+                 f'<rect x=".5" y=".5" width="{width-1}" height="3.2" fill="{accent}"/></g>\n'
+                 f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="14" fill="none" stroke="{LINE}"/>\n')
+    else:
+        frame = f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="14" fill="{BG}" stroke="{LINE}"/>\n'
+    return header + frame + "\n".join(content) + "\n</svg>\n"
 
 
 def overview(record, mobile=False):
@@ -50,7 +56,7 @@ def overview(record, mobile=False):
         lines += [text(22, y, label, 17 if mobile else 18, MUTED),
                   text(right, y, f"{value:,}", 22, PRIMARY, 600, "end")]
     lines.append(text(22, height-18, f'Public activity / {record["updated_at"][:16].replace("T"," ")} UTC', 12, MUTED))
-    return svg(width, height, "GitHub activity", description(record), lines)
+    return svg(width, height, "GitHub activity", description(record), lines, accent=ACTIVITY)
 
 
 def overview_card(record):
@@ -76,7 +82,7 @@ def overview_card(record):
         lines += [text(22,y,label,15,MUTED),
                   text(width-22,y,f'{value:,}',18,PRIMARY,600,"end")]
     lines.append(text(22,321,record["updated_at"][:16].replace("T"," ")+" UTC",12,MUTED))
-    return svg(width,height,"GitHub activity",description(record),lines,vertical_gap=6)
+    return svg(width,height,"GitHub activity",description(record),lines,vertical_gap=6,accent=ACTIVITY)
 
 
 def streak_card(record, width=354):
@@ -98,7 +104,7 @@ def streak_card(record, width=354):
     lines += [text(22,283,"Longest: "+longest,12,MUTED)]
     lines += [text(22,300,"Streak lengths are measured in days.",13,MUTED),
               text(22,318,"An unfinished UTC day does not break a streak.",12,MUTED)]
-    return svg(width,height,"GitHub contribution streak",description(record),lines,vertical_gap=6)
+    return svg(width,height,"GitHub contribution streak",description(record),lines,vertical_gap=6,accent=STREAK)
 
 
 def language_card(record, width=354):
@@ -124,7 +130,7 @@ def language_card(record, width=354):
         lines.append(text(22,138,"No language data available",16,MUTED))
     lines += [text(22,304,f'{record["public_repositories"]} repositories / GitHub language bytes',12,MUTED),
               text(22,322,"Code volume, not proficiency or time spent.",12,MUTED)]
-    return svg(width,height,"Most used languages",description(record),lines,vertical_gap=6)
+    return svg(width,height,"Most used languages",description(record),lines,vertical_gap=6,accent=LANGUAGES)
 
 
 def description(record):
@@ -147,7 +153,7 @@ def render_cards(record):
 
 
 def readme_block(record):
-    version=record["updated_at"].replace("-","").replace(":","")+"-row5"
+    version=record["updated_at"].replace("-","").replace(":","")+"-pastel1"
     base=f'https://raw.githubusercontent.com/{record["username"]}/{record["username"]}/main/assets/stats/'
     alt=escape(description(record),quote=True)
     profile=f'https://github.com/{record["username"]}'

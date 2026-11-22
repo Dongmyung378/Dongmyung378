@@ -1,8 +1,8 @@
 """Render public coding statistics as self-contained, accessible SVG cards."""
 from html import escape
 
-COLORS = {"Easy": "#79D4B3", "Medium": "#EBC078", "Hard": "#E794A5"}
-PRIMARY = "#E6EEF8"
+COLORS = {"Easy": "#9CE5B8", "Medium": "#FFE599", "Hard": "#FF9EA8"}
+PRIMARY = "#EEF4FC"
 MUTED = "#B6C5D6"
 
 
@@ -22,8 +22,14 @@ def panel(x, y, width, record, platform, compact=False, mobile=False):
     left, right = x + 20, x + width - 20
     center = x + width / 2
     heading, body, small = (17, 13, 13) if compact else (24, 18, 16) if mobile else (20, 16, 14)
-    accent = "#9AC5EA" if platform == "AtCoder" else "#DCC596"
-    lines = [f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14" fill="#101B2B" stroke="#34465E"/>']
+    accent = "#9EC5FF" if platform == "AtCoder" else "#FF9EA8"
+    clip_id = f"panel-clip-{platform.lower()}"
+    lines = [
+        f'<defs><clipPath id="{clip_id}"><rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14"/></clipPath></defs>',
+        f'<g clip-path="url(#{clip_id})"><rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" fill="#101B2B"/>'
+        f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="3.2" fill="{accent}"/></g>',
+        f'<rect x="{x+.5}" y="{y+.5}" width="{width-1}" height="{height-1}" rx="14" fill="none" stroke="#34465E"/>',
+    ]
     lines += [text(left, y+32, platform, heading, accent, 600), text(right, y+32, record["username"], small, MUTED, anchor="end")]
     if platform == "AtCoder":
         value = "Unrated" if record["rating"] is None else f'{record["rating"]:,}'
@@ -117,7 +123,7 @@ def alt_text(records, platform=None):
 
 
 def readme_block(records):
-    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-compact4"
+    version = max(record["updated_at"] for record in records.values()).replace("-", "").replace(":", "")+"-pastel1"
     return '''<!-- coding-stats:start -->
 <h2>Coding Practice</h2>
 
