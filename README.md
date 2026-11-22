@@ -16,8 +16,8 @@
 </p>
 
 <p>
-<picture><source media="(max-width: 480px)" srcset="assets/education.svg?v=compact4" width="100%" /><source media="(max-width: 1000px)" srcset="assets/education-tablet.svg?v=compact4" width="100%" /><img src="assets/education.svg?v=compact4" width="49%" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 ~ July 2026." /></picture>
-<picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg?v=compact4" width="100%" /><source media="(max-width: 1000px)" srcset="assets/interests-tablet.svg?v=compact4" width="100%" /><img src="assets/interests.svg?v=compact4" width="49%" alt="Interests: Artificial Intelligence, Robotics, Autonomous Driving, Rocket Engineering." /></picture>
+<picture><source media="(max-width: 480px)" srcset="assets/education.svg?v=compact5" width="100%" /><source media="(max-width: 1000px)" srcset="assets/education-tablet.svg?v=compact5" width="100%" /><img src="assets/education.svg?v=compact5" width="49%" alt="Education: University of Manchester, BSc Artificial Intelligence, First Class Honours, September 2021 ~ July 2026." /></picture>
+<picture><source media="(max-width: 480px)" srcset="assets/interests-mobile.svg?v=compact5" width="100%" /><source media="(max-width: 1000px)" srcset="assets/interests-tablet.svg?v=compact5" width="100%" /><img src="assets/interests.svg?v=compact5" width="49%" alt="Interests: Artificial Intelligence, Rocket Engineering, Autonomous Driving, Robotics." /></picture>
 </p>
 
 <h2>Tech Stack</h2>

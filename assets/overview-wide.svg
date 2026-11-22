@@ -5,14 +5,14 @@
 <text x="24" y="77" font-size="22" fill="#E6EEF8" font-weight="600" text-anchor="start">University of Manchester</text>
 <text x="24" y="106" font-size="17" fill="#B6C5D6" font-weight="400" text-anchor="start">BSc Artificial Intelligence</text>
 <text x="24" y="150" font-size="16" fill="#DCC596" font-weight="600" text-anchor="start">First Class Honours</text>
-<text x="24" y="179" font-size="15" fill="#B6C5D6" font-weight="400" text-anchor="start">September 2021 – July 2026</text>
+<text x="24" y="179" font-size="15" fill="#B6C5D6" font-weight="400" text-anchor="start">September 2021 ~ July 2026</text>
 <text x="414" y="34" font-size="12" fill="#91CBB9" font-weight="600" text-anchor="start">INTERESTS</text>
 <rect x="414" y="63" width="154" height="48" rx="9" fill="#223247"/>
 <text x="491" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Artificial Intelligence</text>
 <rect x="582" y="63" width="154" height="48" rx="9" fill="#223247"/>
-<text x="659" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
+<text x="659" y="92" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
 <rect x="414" y="131" width="154" height="48" rx="9" fill="#223247"/>
 <text x="491" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Autonomous Driving</text>
 <rect x="582" y="131" width="154" height="48" rx="9" fill="#223247"/>
-<text x="659" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Rocket Engineering</text>
+<text x="659" y="160" font-size="13" fill="#E6EEF8" font-weight="600" text-anchor="middle">Robotics</text>
 </svg>
