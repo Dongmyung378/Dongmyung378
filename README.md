@@ -25,15 +25,14 @@
 <p>
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="52" height="52" alt="Python" title="Python" /></a>
 <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="52" height="52" alt="C++" title="C++" /></a>
-<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="52" height="52" alt="Java" title="Java" /></a>
-<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="52" height="52" alt="MySQL" title="MySQL" /></a>
+<a href="https://park-dongmyung.com/profile/#technology-sql"><img src="assets/tech/sql.svg?v=compact5" width="52" height="52" alt="SQL" title="SQL" /></a>
 <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="52" height="52" alt="PyTorch" title="PyTorch" /></a>
 <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="52" height="52" alt="TensorFlow" title="TensorFlow" /></a>
+<a href="https://numpy.org/"><img src="assets/tech/numpy.svg?v=compact5" width="52" height="52" alt="NumPy" title="NumPy" /></a>
 <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="52" height="52" alt="scikit-learn" title="scikit-learn" /></a>
 <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="52" height="52" alt="FastAPI" title="FastAPI" /></a>
-<a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" width="52" height="52" alt="Spring" title="Spring" /></a>
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="52" height="52" alt="Git" title="Git" /></a>
 <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="52" height="52" alt="Docker" title="Docker" /></a>
+<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="52" height="52" alt="Git" title="Git" /></a>
 </p>
 
 <!-- github-stats:start -->
