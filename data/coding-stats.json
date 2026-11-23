@@ -6,7 +6,7 @@
       "profile_url": "https://atcoder.jp/users/ParkDM",
       "rating": 587,
       "highest_rating": 691,
-      "rank": 29939,
+      "rank": 29770,
       "rated_contests": 9,
       "provisional": true,
       "history": [
@@ -66,8 +66,8 @@
         }
       ],
       "latest_contest_url": "https://atcoder.jp/contests/abc485",
-      "top_percent": 23.9,
-      "updated_at": "2026-11-22T11:42:56Z"
+      "top_percent": 23.93,
+      "updated_at": "2026-11-23T05:32:42Z"
     },
     "leetcode": {
       "username": "Dongmyung",
@@ -87,7 +87,7 @@
         "attended": 0,
         "top_percent": null
       },
-      "updated_at": "2026-11-22T11:42:56Z"
+      "updated_at": "2026-11-23T05:32:42Z"
     }
   }
 }
