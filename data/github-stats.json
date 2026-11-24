@@ -2,22 +2,22 @@
   "schema_version": 1,
   "profile": {
     "username": "Dongmyung378",
-    "updated_at": "2026-11-23T05:32:42Z",
+    "updated_at": "2026-11-24T08:10:54Z",
     "created_at": "2025-11-19",
-    "period_start": "2025-11-24",
-    "period_end": "2026-11-23",
+    "period_start": "2025-11-25",
+    "period_end": "2026-11-24",
     "stars": 2,
     "public_repositories": 15,
-    "commits": 376,
+    "commits": 385,
     "repositories_committed_to": 15,
     "pull_requests": 0,
     "issues": 0,
-    "total_contributions": 392,
-    "active_days": 78,
+    "total_contributions": 401,
+    "active_days": 79,
     "streaks": {
-      "current": 2,
+      "current": 3,
       "current_start": "2026-11-22",
-      "current_end": "2026-11-23",
+      "current_end": "2026-11-24",
       "longest": 27,
       "longest_start": "2026-09-01",
       "longest_end": "2026-09-27"
@@ -25,104 +25,104 @@
     "languages": [
       {
         "name": "Python",
-        "bytes": 13473039,
-        "percent": 83.42993314664187,
+        "bytes": 13289203,
+        "percent": 87.2759413741078,
         "color": "#3572A5"
-      },
-      {
-        "name": "Jupyter Notebook",
-        "bytes": 1062729,
-        "percent": 6.580802551154018,
-        "color": "#DA5B0B"
       },
       {
         "name": "C++",
         "bytes": 605478,
-        "percent": 3.7493388879645067,
+        "percent": 3.9764357901156333,
         "color": "#f34b7d"
       },
       {
         "name": "Java",
         "bytes": 362378,
-        "percent": 2.2439757142997796,
+        "percent": 2.37989299157116,
         "color": "#b07219"
+      },
+      {
+        "name": "Jupyter Notebook",
+        "bytes": 331980,
+        "percent": 2.180256183713674,
+        "color": "#DA5B0B"
       },
       {
         "name": "PHP",
         "bytes": 268548,
-        "percent": 1.6629463988536204,
+        "percent": 1.763670816386348,
         "color": "#4F5D95"
       },
       {
         "name": "HTML",
         "bytes": 185684,
-        "percent": 1.1498225238122632,
+        "percent": 1.2194671040926859,
         "color": "#e34c26"
       },
       {
         "name": "JavaScript",
         "bytes": 69283,
-        "percent": 0.4290254083135059,
+        "percent": 0.4550114138690116,
         "color": "#f1e05a"
       },
       {
         "name": "CSS",
         "bytes": 39968,
-        "percent": 0.2474963197245241,
+        "percent": 0.26248713522100164,
         "color": "#663399"
       },
       {
         "name": "PowerShell",
-        "bytes": 34918,
-        "percent": 0.21622489221729715,
+        "bytes": 29635,
+        "percent": 0.19462585699245355,
         "color": "#012456"
-      },
-      {
-        "name": "Shell",
-        "bytes": 13150,
-        "percent": 0.08142955875644245,
-        "color": "#89e051"
       },
       {
         "name": "TeX",
         "bytes": 12967,
-        "percent": 0.08029635653192314,
+        "percent": 0.0851598949762492,
         "color": "#3D6117"
+      },
+      {
+        "name": "Shell",
+        "bytes": 10855,
+        "percent": 0.07128947790292166,
+        "color": "#89e051"
       },
       {
         "name": "Prolog",
         "bytes": 7293,
-        "percent": 0.04516089520994181,
+        "percent": 0.04789628395633419,
         "color": "#74283c"
       },
       {
         "name": "Batchfile",
-        "bytes": 4868,
-        "percent": 0.030144417644590256,
+        "bytes": 4755,
+        "percent": 0.031228140711966144,
         "color": "#C1F12E"
       },
       {
         "name": "OpenEdge ABL",
         "bytes": 4494,
-        "percent": 0.027828474300490676,
+        "percent": 0.02951404087477936,
         "color": "#5ce600"
       },
       {
         "name": "Dockerfile",
         "bytes": 2065,
-        "percent": 0.012787227287608643,
+        "percent": 0.0135617477539874,
         "color": "#384d54"
       },
       {
         "name": "Gnuplot",
         "bytes": 1569,
-        "percent": 0.009715815793829522,
+        "percent": 0.01030430132009987,
         "color": "#f0a9f0"
       },
       {
         "name": "C#",
         "bytes": 496,
-        "percent": 0.003071411493779122,
+        "percent": 0.0032574464338875303,
         "color": "#7355dd"
       }
     ],
@@ -496,7 +496,8 @@
       "2026-11-20": 3,
       "2026-11-21": 0,
       "2026-11-22": 13,
-      "2026-11-23": 19
+      "2026-11-23": 19,
+      "2026-11-24": 9
     }
   }
 }
