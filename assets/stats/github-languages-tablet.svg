@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="346" viewBox="0 -6 600 346" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
-<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 403 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 419 contributions on the public calendar, current streak 2 days, longest streak 27 days. Updated 2026-11-27T06:30:59Z UTC.</desc>
+<title id="title">Most used languages</title><desc id="desc">GitHub Dongmyung378: 2 stars earned, 421 public commit contributions in the last 365 days, 0 public pull requests, 0 public issues; 437 contributions on the public calendar, current streak 2 days, longest streak 27 days. Updated 2026-11-28T06:05:48Z UTC.</desc>
 <rect x=".5" y=".5" width="599" height="333" rx="14" fill="#101B2B" stroke="#34465E"/>
 <text x="22" y="35" fill="#FFE599" font-size="23" font-weight="600" text-anchor="start">Most used languages</text>
 <text x="22" y="65" fill="#B6C5D6" font-size="14" font-weight="400" text-anchor="start">Public, non-fork repositories</text>
 <defs><clipPath id="bar"><rect x="22" y="83" width="556" height="12" rx="6"/></clipPath></defs>
-<rect x="22.000" y="83" width="424.557" height="12" fill="#3572A5" clip-path="url(#bar)"/>
-<rect x="446.557" y="83" width="36.411" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
-<rect x="482.968" y="83" width="31.595" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
-<rect x="514.562" y="83" width="21.792" height="12" fill="#b07219" clip-path="url(#bar)"/>
-<rect x="536.354" y="83" width="16.149" height="12" fill="#4F5D95" clip-path="url(#bar)"/>
-<rect x="552.504" y="83" width="14.557" height="12" fill="#e34c26" clip-path="url(#bar)"/>
-<rect x="567.061" y="83" width="4.166" height="12" fill="#f1e05a" clip-path="url(#bar)"/>
-<rect x="571.227" y="83" width="2.404" height="12" fill="#663399" clip-path="url(#bar)"/>
-<rect x="573.631" y="83" width="4.369" height="12" fill="#8DA2B8" clip-path="url(#bar)"/>
+<rect x="22.000" y="83" width="426.809" height="12" fill="#3572A5" clip-path="url(#bar)"/>
+<rect x="448.809" y="83" width="35.787" height="12" fill="#f34b7d" clip-path="url(#bar)"/>
+<rect x="484.596" y="83" width="31.053" height="12" fill="#DA5B0B" clip-path="url(#bar)"/>
+<rect x="515.649" y="83" width="21.418" height="12" fill="#b07219" clip-path="url(#bar)"/>
+<rect x="537.068" y="83" width="15.873" height="12" fill="#4F5D95" clip-path="url(#bar)"/>
+<rect x="552.941" y="83" width="14.308" height="12" fill="#e34c26" clip-path="url(#bar)"/>
+<rect x="567.248" y="83" width="4.095" height="12" fill="#f1e05a" clip-path="url(#bar)"/>
+<rect x="571.343" y="83" width="2.362" height="12" fill="#663399" clip-path="url(#bar)"/>
+<rect x="573.706" y="83" width="4.294" height="12" fill="#8DA2B8" clip-path="url(#bar)"/>
 <circle cx="28" cy="115" r="5" fill="#3572A5"/>
 <text x="42" y="120" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">Python</text>
-<text x="578" y="120" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">76.36%</text>
+<text x="578" y="120" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">76.76%</text>
 <circle cx="28" cy="135" r="5" fill="#f34b7d"/>
 <text x="42" y="140" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">C++</text>
-<text x="578" y="140" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">6.55%</text>
+<text x="578" y="140" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">6.44%</text>
 <circle cx="28" cy="155" r="5" fill="#DA5B0B"/>
 <text x="42" y="160" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">Jupyter Notebook</text>
-<text x="578" y="160" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">5.68%</text>
+<text x="578" y="160" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">5.59%</text>
 <circle cx="28" cy="175" r="5" fill="#b07219"/>
 <text x="42" y="180" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">Java</text>
-<text x="578" y="180" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">3.92%</text>
+<text x="578" y="180" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">3.85%</text>
 <circle cx="28" cy="195" r="5" fill="#4F5D95"/>
 <text x="42" y="200" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">PHP</text>
-<text x="578" y="200" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">2.90%</text>
+<text x="578" y="200" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">2.85%</text>
 <circle cx="28" cy="215" r="5" fill="#e34c26"/>
 <text x="42" y="220" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">HTML</text>
-<text x="578" y="220" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">2.62%</text>
+<text x="578" y="220" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">2.57%</text>
 <circle cx="28" cy="235" r="5" fill="#f1e05a"/>
 <text x="42" y="240" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">JavaScript</text>
-<text x="578" y="240" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.75%</text>
+<text x="578" y="240" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.74%</text>
 <circle cx="28" cy="255" r="5" fill="#663399"/>
 <text x="42" y="260" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">CSS</text>
-<text x="578" y="260" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.43%</text>
+<text x="578" y="260" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.42%</text>
 <circle cx="28" cy="275" r="5" fill="#8DA2B8"/>
 <text x="42" y="280" fill="#EEF4FC" font-size="15" font-weight="400" text-anchor="start">Other</text>
-<text x="578" y="280" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.79%</text>
+<text x="578" y="280" fill="#B6C5D6" font-size="15" font-weight="400" text-anchor="end">0.77%</text>
 <text x="22" y="304" fill="#B6C5D6" font-size="12" font-weight="400" text-anchor="start">15 repositories / GitHub language bytes</text>
 <text x="22" y="322" fill="#B6C5D6" font-size="12" font-weight="400" text-anchor="start">Code volume, not proficiency or time spent.</text>
 </svg>
